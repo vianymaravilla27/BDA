@@ -1,0 +1,713 @@
+Consultas:
+1. ¿Cuál es el Top 5 materias más reprobadas?
+// Consulta 1: ¿Cuál es el Top 5 materias más reprobadas?
+db.Resultados.aggregate([
+  {
+    $match: {
+      calificacionMateriaAlumno: { $lt: 6 } // Filtrar por alumnos reprobados (calificación menor a 6)
+    }
+  },
+  {
+    $group: {
+      _id: "$idMateria",
+      countReprobados: { $sum: 1 } // Contar la cantidad de alumnos reprobados por materia
+    }
+  },
+  {
+    $sort: {
+      countReprobados: -1 // Ordenar en orden descendente por la cantidad de reprobados
+    }
+  },
+  {
+    $limit: 5 // Limitar los resultados a las 5 materias con mayor cantidad de reprobados
+  },
+  {
+    $lookup: {
+      from: "Materia",
+      localField: "_id",
+      foreignField: "_id",
+      as: "materia"
+    }
+  },
+  {
+    $unwind: "$materia"
+  },
+  {
+    $project: {
+      _id: 0,
+      materia: "$materia.nombreMateria",
+      countReprobados: 1
+    }
+  }
+])
+db.Resultados.aggregate([
+  {
+    $match: {
+      calificacionMateriaAlumno: { $lt: 6 } // Filtrar por alumnos reprobados (calificación menor a 6)
+    }
+  },
+  {
+    $group: {
+      _id: "$idMateria",
+      countReprobados: { $sum: 1 } // Contar la cantidad de alumnos reprobados por materia
+    }
+  },
+  {
+    $sort: {
+      countReprobados: -1 // Ordenar en orden descendente por la cantidad de reprobados
+    }
+  },
+  {
+    $limit: 5 // Limitar los resultados a las 5 materias con mayor cantidad de reprobados
+  },
+  {
+    $lookup: {
+      from: "Materia",
+      localField: "_id",
+      foreignField: "_id",
+      as: "materia"
+    }
+  },
+  {
+    $unwind: "$materia"
+  },
+  {
+    $project: {
+      _id: 0,
+      materia: "$materia.nombreMateria",
+      countReprobados: 1
+    }
+  }
+])
+___________________________________________________________________________________________
+2. ¿Cuál es el Top 3 materias más aprobadas?
+// Consulta 2: ¿Cuál es el Top 3 materias más aprobadas?
+db.Resultados.aggregate([
+  {
+    $match: {
+      calificacionMateriaAlumno: { $gte: 6 } // Filtrar por alumnos aprobados (calificación mayor o igual a 6)
+    }
+  },
+  {
+    $group: {
+      _id: "$idMateria",
+      countAprobados: { $sum: 1 } // Contar la cantidad de alumnos aprobados por materia
+    }
+  },
+  {
+    $sort: {
+      countAprobados: -1 // Ordenar en orden descendente por la cantidad de aprobados
+    }
+  },
+  {
+    $limit: 3 // Limitar los resultados a las 3 materias con mayor cantidad de aprobados
+  },
+  {
+    $lookup: {
+      from: "Materia",
+      localField: "_id",
+      foreignField: "_id",
+      as: "materia"
+    }
+  },
+  {
+    $unwind: "$materia"
+  },
+  {
+    $project: {
+      _id: 0,
+      materia: "$materia.nombreMateria",
+      countAprobados: 1
+    }
+  }
+])
+_______________________________________________________________________________________________________________________
+3. ¿Cuál es el semestre con menor promedio de la carrera “Licenciatura en
+Ciencia de Datos”?
+
+// Consulta 3: ¿Cuál es el semestre con menor promedio de la carrera “Licenciatura en
+// Ciencia de Datos”?
+db.Resultados.aggregate([
+   {
+      $lookup: {
+         from: "Semestre",
+         localField: "idSemestre",
+         foreignField: "_id",
+         as: "semestre"
+      }
+   },
+   {
+      $unwind: "$semestre"
+   },
+   {
+      $match: {
+         "semestre.carrera": "Licenciatura en Ciencia de Datos"
+      }
+   },
+   {
+      $group: {
+         _id: "$semestre._id",
+         promedio: { $avg: "$calificacionMateriaAlumno" }
+      }
+   },
+   {
+      $sort: {
+         promedio: 1
+      }
+   },
+   {
+      $limit: 1
+   },
+   {
+      $project: {
+         _id: 1,
+         promedio: 1
+      }
+   }
+])
+
+___________________________________________________________________________________________
+4. ¿Cuál es el Top 3 de materias reprobadas en el área de básicas?
+// Consulta 4: ¿Cuál es el top 3 de materias reprobadas en el área de básicas?
+db.Resultados.aggregate([
+  {
+    $match: {
+      calificacionMateriaAlumno: { $lt: 6 } // Filtrar por alumnos reprobados (calificación menor a 6)
+    }
+  },
+  {
+    $group: {
+      _id: "$idMateria",
+      countReprobados: { $sum: 1 } // Contar la cantidad de alumnos reprobados por materia
+    }
+  },
+  {
+    $sort: {
+      countReprobados: -1 // Ordenar en orden descendente por la cantidad de reprobados
+    }
+  },
+  {
+    $limit: 3 
+  },
+   {
+      $lookup: {
+      from: "Materia",
+      localField: "_id",
+      foreignField: "_id",
+      as: "materia"
+   }
+   },
+   {
+      $unwind: "$materia"
+   },
+   {
+      $match: {
+         "materia.area": "Básicas"
+      }
+   },
+  {
+    $project: {
+      _id: 0,
+      materia: "$materia.nombreMateria",
+      countReprobados: 1
+    }
+  }
+])
+___________________________________________________________________________________________
+5. ¿Cuántos alumnos reprobados hay en la carrera “Ingeniería en Inteligencia
+Artificial”?
+// Consulta 5: ¿Cuántos alumnos reprobados hay en la carrera "Ingeniería en Inteligencia Artificial?
+db.Resultados.aggregate([
+  {
+    $lookup: {
+      from: "Alumno",
+      localField: "boletaAlumno",
+      foreignField: "_id",
+      as: "alumno"
+    }
+  },
+  {
+    $lookup: {
+      from: "Materia",
+      localField: "idMateria",
+      foreignField: "_id",
+      as: "materia"
+    }
+  },
+  {
+    $lookup: {
+      from: "Semestre",
+      localField: "idSemestre",
+      foreignField: "_id",
+      as: "semestre"
+    }
+  },
+  {
+    $match: {
+      "materia.carrera": "Ingeniería en Inteligencia Artificial",
+      calificacionMateriaAlumno: { $lt: 6 }
+    }
+  },
+  {
+    $count: "alumnosReprobados"
+  }
+])
+
+___________________________________________________________________________________________
+6. ¿Cuántos alumnos reprobados hay por cada carrera?
+
+//Consulta 6: ¿Cuántos alumnos reprobados hay por cada carrera?
+db.Resultados.aggregate([
+  {
+    $lookup: {
+      from: "Alumno",
+      localField: "boletaAlumno",
+      foreignField: "_id",
+      as: "alumno"
+    }
+  },
+  {
+    $lookup: {
+      from: "Materia",
+      localField: "idMateria",
+      foreignField: "_id",
+      as: "materia"
+    }
+  },
+  {
+    $match: {
+      calificacionMateriaAlumno: { $lt: 6 }
+    }
+  },
+  {
+    $group: {
+      _id: "$materia.carrera",
+      totalReprobados: { $sum: 1 }
+    }
+  }
+])
+_______________________________________________________________________________________________________________________
+7. ¿Cuántos alumnos hay por alcaldía?
+//Consulta 7: ¿Cuántos alumnos hay por alcaldía?
+db.Alumno.aggregate([
+  {
+    $group: {
+      _id: "$alcaldia",
+      totalAlumnos: { $sum: 1 }
+    }
+  },
+  {
+    $match: {
+      totalAlumnos: { $gt: 1 }
+    }
+  }
+])
+_______________________________________________________________________________________________________________________
+8. ¿Cuál es el promedio de las calificaciones de todos los alumnos que
+integran la escuela?
+//Consulta 8:¿Cuál es el promedio de las calificaciones de todos los alumnos que integran // la escuela?
+db.Resultados.aggregate([
+  {
+    $lookup: {
+      from: "Alumno",
+      localField: "boletaAlumno",
+      foreignField: "boletaAlumno",
+      as: "alumno"
+    }
+  },
+  {
+    $lookup: {
+      from: "Materia",
+      localField: "idMateria",
+      foreignField: "idMateria",
+      as: "materia"
+    }
+  },
+  {
+    $group: {
+      _id: "$materia.carrera",
+      promedioCalificaciones: { $avg: "$calificacionMateriaAlumno" }
+    }
+  }
+])
+
+_______________________________________________________________________________________________________________________
+9.¿Cuántas calificaciones aprobatorias hay?
+//Consulta 9:¿Cuántas calificaciones aprobatorias hay?
+db.Resultados.aggregate([
+  {
+    $match: {
+      calificacionMateriaAlumno: { $gte: 6 } // Filtramos solo los resultados con calificación mayor o igual a 6 (aprobados)
+    }
+  },
+  {
+    $lookup: {
+      from: "Alumnos",
+      localField: "boletaAlumno",
+      foreignField: "boletaAlumno",
+      as: "alumno"
+    }
+  },
+  {
+    $lookup: {
+      from: "Semestre",
+      localField: "idSemestre",
+      foreignField: "idSemestre",
+      as: "semestre"
+    }
+  },
+  {
+    $group: {
+      _id: "$semestre.carrera",
+      totalAprobados: { $sum: 1 }
+    }
+  }
+])
+
+___________________________________________________________________________________________
+10. ¿Cuál es el semestre con mayor promedio de la carrera “Sistemas
+Computacionales?
+//Consulta 10:¿Cuál es el semestre con mayor promedio de la carrera “Sistemas
+//Computacionales? 
+db.Resultados.aggregate([
+   {
+      $lookup: {
+         from: "Semestre",
+         localField: "idSemestre",
+         foreignField: "_id",
+         as: "semestre"
+      }
+   },
+   {
+      $unwind: "$semestre"
+   },
+   {
+      $match: {
+         "semestre.carrera": "Ingeniería en Sistemas Computacionales"
+      }
+   },
+   {
+      $group: {
+         _id: "$semestre._id",
+         promedio: { $avg: "$calificacionMateriaAlumno" }
+      }
+   },
+   {
+      $sort: {
+         promedio: 1
+      }
+   },
+   {
+      $limit: 1
+   },
+   {
+      $project: {
+         _id: 1,
+         promedio: 1
+      }
+   }
+])
+_______________________________________________________________________________________________________________________
+11. ¿Cuáles son las boletas, nombres y teléfonos de los 5 alumnos más
+reprobados en la carrera de "Ingeniería en Inteligencia Artificial?
+//Consulta 11: ¿Cuáles son las boletas, nombres y teléfonos de los 5 alumnos más
+//reprobados en la carrera de "Ingeniería en Inteligencia Artificial?
+db.Resultados.aggregate([
+  {
+    $lookup: {
+      from: "Alumno",
+      localField: "boletaAlumno",
+      foreignField: "_id",
+      as: "alumno"
+    }
+  },
+  {
+    $lookup: {
+      from: "Materia",
+      localField: "idMateria",
+      foreignField: "_id",
+      as: "materia"
+    }
+  },
+  {
+    $lookup: {
+      from: "Semestre",
+      localField: "idSemestre",
+      foreignField: "_id",
+      as: "semestre"
+    }
+  },
+  {
+    $match: {
+      "materia.carrera": "Ingeniería en Inteligencia Artificial",
+      calificacionMateriaAlumno: { $lt: 6 }
+    }
+  },
+  {
+    $unwind: "$alumno"
+  },
+  {
+    $sort: {
+      calificacionMateriaAlumno: 1
+    }
+  },
+  {
+    $limit: 5
+  },
+  {
+    $project: {
+      _id: 0,
+      boleta: "$alumno.boletaAlumno",
+      nombre: { $concat: ["$alumno.nombres", " ", "$alumno.apellidoPaterno", " ", "$alumno.apellidoMaterno"] },
+      telefono: "$alumno.telefono"
+    }
+  }
+])
+_______________________________________________________________________________________________________________________
+12. ¿Cuál es el nombre y dirección de los 3 alumnos más reprobados en la
+carrera de "Licenciatura en Ciencia de Datos"?
+//Consulta 12: ¿Cuál es el nombre y dirección de los 3 alumnos más reprobados en la
+//carrera de "Licenciatura en Ciencia de Datos"?
+db.Resultados.aggregate([
+  {
+    $lookup: {
+      from: "Alumno",
+      localField: "boletaAlumno",
+      foreignField: "_id",
+      as: "alumno"
+    }
+  },
+  {
+    $lookup: {
+      from: "Semestre",
+      localField: "idSemestre",
+      foreignField: "_id",
+      as: "semestre"
+    }
+  },
+  {
+    $match: {
+      "semestre.carrera": "Licenciatura en Ciencia de Datos",
+      calificacionMateriaAlumno: { $lt: 6 }
+    }
+  },
+  {
+    $unwind: "$alumno"
+  },
+  {
+    $sort: {
+      calificacionMateriaAlumno: 1
+    }
+  },
+  {
+    $limit: 3
+  },
+  {
+    $project: {
+      _id: 0,
+      nombre: { $concat: ["$alumno.nombres", " ", "$alumno.apellidoPaterno", " ", "$alumno.apellidoMaterno"] },
+      direccion: {
+        $concat: ["$alumno.calle", " ", { $toString: "$alumno.numeroExterior" }, ", ", "$alumno.colonia", ", ", "$alumno.alcaldia", ", ", "$alumno.estado", ", CP: ", { $toString: "$alumno.cp" }]
+      }
+    }
+  }
+])
+------------------------------------------------------------------------------------------
+13. ¿Cuál es el nombre de los 3 profesores que tienen una calificación menor
+que 3 y que materias dan?
+//Consulta 13: ¿Cuál es el nombre de los 3 profesores que tienen una calificación menor
+//que 3 y que materias dan?
+db.Resultados.aggregate([
+  {
+    $lookup: {
+      from: "Profesor",
+      localField: "numeroEmpleado",
+      foreignField: "_id",
+      as: "profesor"
+    }
+  },
+  {
+    $lookup: {
+      from: "Materia",
+      localField: "idMateria",
+      foreignField: "_id",
+      as: "materia"
+    }
+  },
+  {
+    $match: {
+      EvaluacionProfesor: { $lt: 5 }
+    }
+  },
+  {
+    $unwind: "$profesor"
+  },
+  {
+    $group: {
+      _id: "$profesor._id",
+      nombreProfesor: { $first: { $concat: ["$profesor.nombres", " ", "$profesor.apellidoPaterno", " ", "$profesor.apellidoMaterno"] } },
+      materias: { $addToSet: "$materia.nombreMateria" }
+    }
+  },
+  {
+    $sort: {
+      _id: 1
+    }
+  },
+  {
+    $limit: 3
+  },
+  {
+    $project: {
+      _id: 0,
+      nombreProfesor: 1,
+      materias: 1
+    }
+  }
+])
+
+CONSULTAS ABC:
+________________________________________________________________
+Altas:
+• Cada alumno nuevo:
+db.Alumno.insertOne({
+ boletaAlumno: 2020301658, 
+ nombres: "Juan", 
+ apellidoPaterno: "Guarnizo", 
+ apellidoMaterno: "Algarra", 
+ correoElectronico: "juanguarnizo@alumno.ipn.mx", 
+ telefono: 5571395847, 
+ curp: "GAAJ950115HX", 
+ sexo: "Masculino", 
+ estado: "Ciudad de Mexico", 
+ alcaldia: "Cuajimalpa", 
+ colonia: "San Jose", 
+ cp: 05220, 
+ calle: "Montesinos", 
+ numeroExterior: 80
+});
+
+• Aquellas materias que se vayan a cursar en el nuevo semestre:
+db.Materia.insertOne({
+ idMateria: 2023,
+ nombreMateria: "Modelos econométricos",
+ carrera: " Licenciatura en Ciencia de Datos",
+ creditos: 6,
+ area: " Básicas"
+});
+
+• Cada profesor nuevo: 
+db.Profesor.insertOne({
+ numeroEmpleado: 20201874,
+ nombres: "Jacob",
+ apellidoPaterno: "Salinas",
+ apellidoMaterno: "Velazquez",
+ correoElectronico: "jacob.salinas@profesor.ipn.mx",
+ telefono: 5512345678,
+ curp: "JOLM900101MDFXYZ",
+ sexo: "Femenino",
+ estado: "Ciudad de México",
+ alcaldia: "Benito Juárez",
+ colonia: "Del Valle",
+ cp: 03100,
+ calle: "Insurgentes Sur",
+ numeroExterior: 123,
+ rfc: "GOLM900101MDF"
+});
+
+______________________________________________________________________________________
+
+• Cada alumno que se dé de baja de la carrera.
+db.Alumno.deleteOne({ boletaAlumno: 2020301658 });
+
+• Cada profesor que deje de dar clases.
+db.Profesor.deleteOne({ numeroEmpleado: 20201874 });
+
+• Eliminar una materia por distintas circunstancias
+db.Materia.deleteOne({ idMateria: 2023 });
+
+_______________________________________________________________________________________
+
+Cambios:
+• Será posible cambiar algún error en la captura de datos del alumno, tales 
+como: número de teléfono, correo, dirección.
+- Número de teléfono antes: 5576449800
+db.Alumno.updateOne(
+ { boletaAlumno: 2020025960 },
+ { $set: { telefono: 5571375917 } }
+)
+
+
+- Correo antes: lucia.benitez@alumno.ipn.mx
+db.Alumno.updateOne(
+ { boletaAlumno: 2020025960 },
+ { $set: { correoElectronico: "luci_55@alumno.ipn.mx" } }
+)
+
+- Dirección antes: estado: "Ciudad de México", alcaldia: "Xochimilco", colonia: 
+"División del Norte", cp: 07300, calle: "Olivos", numeroExterior: 30
+db.Alumno.updateOne(
+ { boletaAlumno: 2020025960 },
+ { $set: {
+ alcaldia: "Cuajimalpa",
+ colonia: "Santa fe",
+ cp: 05247,
+ calle: "Héroes",
+ numeroExterior: 100
+ } }
+)
+
+• Será posible cambiar algún error en la captura de datos del profesor, tales 
+como: número de teléfono, correo y su dirección.
+- Número de teléfono antes: 5535889425
+- Correo antes: lilian.martinez@profesor.ipn.mx
+- Dirección antes: estado: "Ciudad de México", alcaldia: "Cuauhtémoc",
+colonia: "Tabacalera", cp: 06030, calle: "Av. Reforma", numeroExterior: 45
+db.Profesor.updateOne(
+ { numeroEmpleado: 20106389 },
+ { $set: { 
+ telefono: 5544332211,
+ correoElectronico: "lili_ac@profesor.ipn.mx",
+ alcaldia: "Iztapalapa",
+ colonia: "Albacete",
+ cp: 2355,
+ calle: "Vikingos",
+ numeroExterior: 45
+ } }
+)
+
+
+
+db.Resutados.updateOne(
+ { id: ObjectId('649245f6e9e3defa3ffe3f66'},
+ { $set: { 
+ telefono: 5544332211,
+ correoElectronico: "lili_ac@profesor.ipn.mx",
+ alcaldia: "Iztapalapa",
+ colonia: "Albacete",
+ cp: 2355,
+ calle: "Vikingos",
+ numeroExterior: 45
+ } }
+)
+
+
+
+db.Resultados.updateOne(
+ { numeroEmpleado: ObjectId('ObjectId('649245f6e9e3defa3ffe3f66')},
+ { $set: { numeroEmpleado: ObjectId('649245f6e9e3defa3ffe3f66') }
+)
+
+db.Resultados.updateOne(
+ { _id: ObjectId('6493fbd501215670d4de390b') },
+ { $set: { numeroEmpleado: ObjectId('649245f6e9e3defa3ffe3f66') }
+)
+
+db.Resultados.updateMany(
+   { numeroEmpleado: ObjectId('649245f6e9e3defa3ffe3f62'), idMateria: ObjectId('64938e05ce618363e96bdeb8') },
+   { $set: { numeroEmpleado: ObjectId('649245f6e9e3defa3ffe3f66') } }
+)
+
+
+
+

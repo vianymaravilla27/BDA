@@ -1,0 +1,499 @@
+Consulta 1:
+1.	¿Cuál es el Top 5 materias más reprobadas?
+db.Resultados.aggregate([
+  {
+    $match: {
+      calificacionMateriaAlumno: { $lt: 6 } // Filtrar por alumnos reprobados (calificación menor a 6)
+    }
+  },
+  {
+    $group: {
+      _id: "$idMateria",
+      countReprobados: { $sum: 1 } // Contar la cantidad de alumnos reprobados por materia
+    }
+  },
+  {
+    $sort: {
+      countReprobados: -1 // Ordenar en orden descendente por la cantidad de reprobados
+    }
+  },
+  {
+    $limit: 5 // Limitar los resultados a las 5 materias con mayor cantidad de reprobados
+  },
+  {
+    $lookup: {
+      from: "Materia",
+      localField: "_id",
+      foreignField: "_id",
+      as: "materia"
+    }
+  },
+  {
+    $unwind: "$materia"
+  },
+  {
+    $project: {
+      _id: 0,
+      materia: "$materia.nombreMateria",
+      countReprobados: 1
+    }
+  }
+])
+
+
+Consulta 2: 2.	¿Cuál es el Top 3 materias más aprobadas?
+db.Resultados.aggregate([
+  {
+    $match: {
+      calificacionMateriaAlumno: { $gte: 6 } // Filtrar por alumnos aprobados (calificación mayor o igual a 6)
+    }
+  },
+  {
+    $group: {
+      _id: "$idMateria",
+      countAprobados: { $sum: 1 } // Contar la cantidad de alumnos aprobados por materia
+    }
+  },
+  {
+    $sort: {
+      countAprobados: -1 // Ordenar en orden descendente por la cantidad de aprobados
+    }
+  },
+  {
+    $limit: 3 // Limitar los resultados a las 3 materias con mayor cantidad de aprobados
+  },
+  {
+    $lookup: {
+      from: "Materia",
+      localField: "_id",
+      foreignField: "_id",
+      as: "materia"
+    }
+  },
+  {
+    $unwind: "$materia"
+  },
+  {
+    $project: {
+      _id: 0,
+      materia: "$materia.nombreMateria",
+      countAprobados: 1
+    }
+  }
+])
+
+Consulta 3: 3.	¿Cuál es el semestre con menor promedio de la carrera “Licenciatura en Ciencia de Datos”?
+db.Resultados.aggregate([
+   {
+      $lookup: {
+         from: "Semestre",
+         localField: "idSemestre",
+         foreignField: "_id",
+         as: "semestre"
+      }
+   },
+   {
+      $unwind: "$semestre"
+   },
+   {
+      $match: {
+         "semestre.carrera": "Licenciatura en Ciencia de Datos"
+      }
+   },
+   {
+      $group: {
+         _id: "$semestre._id",
+         promedio: { $avg: "$calificacionMateriaAlumno" }
+      }
+   },
+   {
+      $sort: {
+         promedio: 1
+      }
+   },
+   {
+      $limit: 1
+   },
+   {
+      $project: {
+         _id: 1,
+         promedio: 1
+      }
+   }
+])
+
+Consulta 4: 4.	¿Cuál es el Top 3 de materias reprobadas en el área de básicas?
+db.Resultados.aggregate([
+  {
+    $match: {
+      calificacionMateriaAlumno: { $lt: 6 } // Filtrar por alumnos reprobados (calificación menor a 6)
+    }
+  },
+  {
+    $group: {
+      _id: "$idMateria",
+      countReprobados: { $sum: 1 } // Contar la cantidad de alumnos reprobados por materia
+    }
+  },
+  {
+    $sort: {
+      countReprobados: -1 // Ordenar en orden descendente por la cantidad de reprobados
+    }
+  },
+  {
+    $limit: 3 
+  },
+   {
+      $lookup: {
+      from: "Materia",
+      localField: "_id",
+      foreignField: "_id",
+      as: "materia"
+   }
+   },
+   {
+      $unwind: "$materia"
+   },
+   {
+      $match: {
+         "materia.area": "Básicas"
+      }
+   },
+  {
+    $project: {
+      _id: 0,
+      materia: "$materia.nombreMateria",
+      countReprobados: 1
+    }
+  }
+])
+
+Consulta 5: 5.	¿Cuántos alumnos reprobados hay en la carrera “Ingeniería en Inteligencia Artificial”?
+db.Resultados.aggregate([
+  {
+    $lookup: {
+      from: "Alumno",
+      localField: "boletaAlumno",
+      foreignField: "_id",
+      as: "alumno"
+    }
+  },
+  {
+    $lookup: {
+      from: "Materia",
+      localField: "idMateria",
+      foreignField: "_id",
+      as: "materia"
+    }
+  },
+  {
+    $lookup: {
+      from: "Semestre",
+      localField: "idSemestre",
+      foreignField: "_id",
+      as: "semestre"
+    }
+  },
+  {
+    $match: {
+      "materia.carrera": "Ingeniería en Inteligencia Artificial",
+      calificacionMateriaAlumno: { $lt: 70 }
+    }
+  },
+  {
+    $count: "alumnosReprobados"
+  }
+])
+
+Consulta 6: 6.	¿Cuántos alumnos reprobados hay por cada carrera?
+db.Resultados.aggregate([
+  {
+    $lookup: {
+      from: "Alumno",
+      localField: "boletaAlumno",
+      foreignField: "_id",
+      as: "alumno"
+    }
+  },
+  {
+    $lookup: {
+      from: "Materia",
+      localField: "idMateria",
+      foreignField: "_id",
+      as: "materia"
+    }
+  },
+  {
+    $match: {
+      calificacionMateriaAlumno: { $lt: 70 }
+    }
+  },
+  {
+    $group: {
+      _id: "$materia.carrera",
+      totalReprobados: { $sum: 1 }
+    }
+  }
+])
+
+Consulta 7: 7.	¿Cuántos alumnos son irregulares respecto a la alcaldía donde viven?
+db.Alumno.aggregate([
+  {
+    $group: {
+      _id: "$alcaldia",
+      totalAlumnos: { $sum: 1 }
+    }
+  },
+  {
+    $match: {
+      totalAlumnos: { $gt: 1 }
+    }
+  }
+])
+
+Consulta 8: 8.	¿Cuál es el promedio de las calificaciones de todos los alumnos que integran cada carrera?
+db.Resultados.aggregate([
+  {
+    $lookup: {
+      from: "Alumno",
+      localField: "boletaAlumno",
+      foreignField: "boletaAlumno",
+      as: "alumno"
+    }
+  },
+  {
+    $lookup: {
+      from: "Materia",
+      localField: "idMateria",
+      foreignField: "idMateria",
+      as: "materia"
+    }
+  },
+  {
+    $group: {
+      _id: "$materia.carrera",
+      promedioCalificaciones: { $avg: "$calificacionMateriaAlumno" }
+    }
+  }
+])
+
+Consulta 9: 9.	
+db.Resultados.aggregate([
+  {
+    $match: {
+      calificacionMateriaAlumno: { $gte: 6 } // Filtramos solo los resultados con calificación mayor o igual a 6 (aprobados)
+    }
+  },
+  {
+    $lookup: {
+      from: "Alumnos",
+      localField: "boletaAlumno",
+      foreignField: "boletaAlumno",
+      as: "alumno"
+    }
+  },
+  {
+    $lookup: {
+      from: "Semestre",
+      localField: "idSemestre",
+      foreignField: "idSemestre",
+      as: "semestre"
+    }
+  },
+  {
+    $group: {
+      _id: "$semestre.carrera",
+      totalAprobados: { $sum: 1 }
+    }
+  }
+])
+
+Consulta 10: 10.	¿Cuál es el semestre con mayor promedio de la carrera “Sistemas Computacionales?
+db.Resultados.aggregate([
+   {
+      $lookup: {
+         from: "Semestre",
+         localField: "idSemestre",
+         foreignField: "_id",
+         as: "semestre"
+      }
+   },
+   {
+      $unwind: "$semestre"
+   },
+   {
+      $match: {
+         "semestre.carrera": "Ingeniería en Sistemas Computacionales"
+      }
+   },
+   {
+      $group: {
+         _id: "$semestre._id",
+         promedio: { $avg: "$calificacionMateriaAlumno" }
+      }
+   },
+   {
+      $sort: {
+         promedio: 1
+      }
+   },
+   {
+      $limit: 1
+   },
+   {
+      $project: {
+         _id: 1,
+         promedio: 1
+      }
+   }
+])
+
+
+Consulta 11: 11.	¿Cuáles son las boletas, nombres y teléfonos de los 5 alumnos más reprobados en la carrera de "Ingeniería en Inteligencia Artificial?
+db.Resultados.aggregate([
+  {
+    $lookup: {
+      from: "Alumno",
+      localField: "boletaAlumno",
+      foreignField: "_id",
+      as: "alumno"
+    }
+  },
+  {
+    $lookup: {
+      from: "Materia",
+      localField: "idMateria",
+      foreignField: "_id",
+      as: "materia"
+    }
+  },
+  {
+    $lookup: {
+      from: "Semestre",
+      localField: "idSemestre",
+      foreignField: "_id",
+      as: "semestre"
+    }
+  },
+  {
+    $match: {
+      "materia.carrera": "Ingeniería en Inteligencia Artificial",
+      calificacionMateriaAlumno: { $lt: 70 }
+    }
+  },
+  {
+    $unwind: "$alumno"
+  },
+  {
+    $sort: {
+      calificacionMateriaAlumno: 1
+    }
+  },
+  {
+    $limit: 5
+  },
+  {
+    $project: {
+      _id: 0,
+      boleta: "$alumno.boletaAlumno",
+      nombre: { $concat: ["$alumno.nombres", " ", "$alumno.apellidoPaterno", " ", "$alumno.apellidoMaterno"] },
+      telefono: "$alumno.telefono"
+    }
+  }
+])
+
+Consulta 12: 12.	¿Cuál es el nombre y dirección de los 3 alumnos más reprobados en la carrera de "Licenciatura en Ciencia de Datos"?
+db.Resultados.aggregate([
+  {
+    $lookup: {
+      from: "Alumno",
+      localField: "boletaAlumno",
+      foreignField: "_id",
+      as: "alumno"
+    }
+  },
+  {
+    $lookup: {
+      from: "Semestre",
+      localField: "idSemestre",
+      foreignField: "_id",
+      as: "semestre"
+    }
+  },
+  {
+    $match: {
+      "semestre.carrera": "Licenciatura en Ciencia de Datos",
+      calificacionMateriaAlumno: { $lt: 6 }
+    }
+  },
+  {
+    $unwind: "$alumno"
+  },
+  {
+    $sort: {
+      calificacionMateriaAlumno: 1
+    }
+  },
+  {
+    $limit: 3
+  },
+  {
+    $project: {
+      _id: 0,
+      nombre: { $concat: ["$alumno.nombres", " ", "$alumno.apellidoPaterno", " ", "$alumno.apellidoMaterno"] },
+      direccion: {
+        $concat: ["$alumno.calle", " ", { $toString: "$alumno.numeroExterior" }, ", ", "$alumno.colonia", ", ", "$alumno.alcaldia", ", ", "$alumno.estado", ", CP: ", { $toString: "$alumno.cp" }]
+      }
+    }
+  }
+])
+
+Cosulta 13: 13.	¿Cuál es el nombre de los 3 profesores que tienen una calificación menor que 5 y que materias dan?
+db.Resultados.aggregate([
+  {
+    $lookup: {
+      from: "Profesor",
+      localField: "numeroEmpleado",
+      foreignField: "_id",
+      as: "profesor"
+    }
+  },
+  {
+    $lookup: {
+      from: "Materia",
+      localField: "idMateria",
+      foreignField: "_id",
+      as: "materia"
+    }
+  },
+  {
+    $match: {
+      EvaluacionProfesor: { $lt: 5 }
+    }
+  },
+  {
+    $unwind: "$profesor"
+  },
+  {
+    $group: {
+      _id: "$profesor._id",
+      nombreProfesor: { $first: { $concat: ["$profesor.nombres", " ", "$profesor.apellidoPaterno", " ", "$profesor.apellidoMaterno"] } },
+      materias: { $addToSet: "$materia.nombreMateria" }
+    }
+  },
+  {
+    $sort: {
+      _id: 1
+    }
+  },
+  {
+    $limit: 3
+  },
+  {
+    $project: {
+      _id: 0,
+      nombreProfesor: 1,
+      materias: 1
+    }
+  }
+])

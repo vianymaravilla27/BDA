@@ -1,0 +1,945 @@
+[{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edc9d"
+  },
+  "boletaAlumno": 2020567834,
+  "nombres": "Juan",
+  "apellidoPaterno": "García",
+  "apellidoMaterno": "López",
+  "correoElectronico": "juan.perez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5567324598"
+  },
+  "curp": "JUPEGO2002HDFTY",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Benito Juárez",
+  "colonia": "Narvarte",
+  "cp": 1600,
+  "calle": "Av. Insurgentes",
+  "numeroExterior": 15
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edc9e"
+  },
+  "boletaAlumno": 2020725498,
+  "nombres": "Vianey",
+  "apellidoPaterno": "Maravilla",
+  "apellidoMaterno": "Pérez",
+  "correoElectronico": "vianey.maravilla@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5567018453"
+  },
+  "curp": "VIMAPE2001MDFIS",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Gustavo A. Madero",
+  "colonia": "Lindavista",
+  "cp": 3776,
+  "calle": "Quito",
+  "numeroExterior": 49
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edc9f"
+  },
+  "boletaAlumno": 2020630220,
+  "nombres": "Erin",
+  "apellidoPaterno": "Mondolla",
+  "apellidoMaterno": "Cervantes",
+  "correoElectronico": "erin.mondolla@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5513665778"
+  },
+  "curp": "ERMOCE2001MDFRRA",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Cuauhtémoc",
+  "colonia": "San Rafael",
+  "cp": 3384,
+  "calle": "Rosas Moreno",
+  "numeroExterior": 33
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edca0"
+  },
+  "boletaAlumno": 2020678345,
+  "nombres": "Diego",
+  "apellidoPaterno": "Reyes",
+  "apellidoMaterno": "Zuñiga",
+  "correoElectronico": "diego.reyes@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5551234567"
+  },
+  "curp": "DIREZU2002HDFGHR",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Cuauhtémoc",
+  "colonia": "Santa María La Ribera",
+  "cp": 3328,
+  "calle": "Cedro",
+  "numeroExterior": 24
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edca1"
+  },
+  "boletaAlumno": 2020564823,
+  "nombres": "María",
+  "apellidoPaterno": "Hernández",
+  "apellidoMaterno": "Gómez",
+  "correoElectronico": "maria.hernandez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5552345678"
+  },
+  "curp": "MAHEG02000MDFTEA",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Coyoacán",
+  "colonia": "Del Carmen",
+  "cp": 2368,
+  "calle": "Av. Universidad",
+  "numeroExterior": 98
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edca2"
+  },
+  "boletaAlumno": 2021785476,
+  "nombres": "Luis",
+  "apellidoPaterno": "Rodríguez",
+  "apellidoMaterno": "Pérez",
+  "correoElectronico": "luis.rodriguez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5553474398"
+  },
+  "curp": "LUROPE2002HDFKKO",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Miguel Hidalgo",
+  "colonia": "Polanco",
+  "cp": 11560,
+  "calle": "Av. Presidente Masaryk",
+  "numeroExterior": 12
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edca3"
+  },
+  "boletaAlumno": 2021879430,
+  "nombres": "Ana",
+  "apellidoPaterno": "López",
+  "apellidoMaterno": "Martínez",
+  "correoElectronico": "ana.martinez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5583665784"
+  },
+  "curp": "ANLOMA2002MDFUIT",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Cuauhtémoc",
+  "colonia": "Centro",
+  "cp": 3072,
+  "calle": "Calle Juárez",
+  "numeroExterior": 101
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edca4"
+  },
+  "boletaAlumno": 2020658311,
+  "nombres": "Pedro",
+  "apellidoPaterno": "González",
+  "apellidoMaterno": "Vargas",
+  "correoElectronico": "pedro.gonzalez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5590635487"
+  },
+  "curp": "PEGOVA2000HDFVGT",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Iztapalapa",
+  "colonia": "San Lorenzo",
+  "cp": 9870,
+  "calle": "Av. Zaragoza",
+  "numeroExterior": 75
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edca5"
+  },
+  "boletaAlumno": 2020785532,
+  "nombres": "Laura",
+  "apellidoPaterno": "Díaz",
+  "apellidoMaterno": "Ramírez",
+  "correoElectronico": "llaura.diaz@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5509113243"
+  },
+  "curp": "LADIRA2001MDFWRT",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Tlalpan",
+  "colonia": "Pedregal",
+  "cp": 14010,
+  "calle": "Calle de la Montaña",
+  "numeroExterior": 56
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edca6"
+  },
+  "boletaAlumno": 2021784536,
+  "nombres": "Carlos",
+  "apellidoPaterno": "Sánchez",
+  "apellidoMaterno": "Flores",
+  "correoElectronico": "carlos.sanchez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5557890123"
+  },
+  "curp": "CASAFL2001HDFPTL",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Azcapotzalco",
+  "colonia": "Clavería",
+  "cp": 2080,
+  "calle": "Av. Cuitláhuac",
+  "numeroExterior": 73
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edca7"
+  },
+  "boletaAlumno": 2020637810,
+  "nombres": "Mariana",
+  "apellidoPaterno": "Torres",
+  "apellidoMaterno": "Mendoza",
+  "correoElectronico": "mariana.torres@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5558885674"
+  },
+  "curp": "MATOME1999MDFZAS",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Gustavo A. Madero",
+  "colonia": "Lindavista",
+  "cp": 3776,
+  "calle": "Av. Instituto Politécnico Nacional",
+  "numeroExterior": 34
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edca8"
+  },
+  "boletaAlumno": 2021234209,
+  "nombres": "José",
+  "apellidoPaterno": "Ríos",
+  "apellidoMaterno": "Fernández",
+  "correoElectronico": "jose.rios@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5559012345"
+  },
+  "curp": "JORIFE2002HDFZSE",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Iztacalco",
+  "colonia": "Agrícola Pantitlán",
+  "cp": 8000,
+  "calle": "Av. Río Churubusco",
+  "numeroExterior": 19
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edca9"
+  },
+  "boletaAlumno": 2020112442,
+  "nombres": "Gabriela",
+  "apellidoPaterno": "Ortega",
+  "apellidoMaterno": "Silva",
+  "correoElectronico": "gabriela.ortega@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5590993245"
+  },
+  "curp": "GAORSI2001HDFAAA",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Venustiano Carranza",
+  "colonia": "Morelos",
+  "cp": 15270,
+  "calle": "Av. Oceanía",
+  "numeroExterior": 4
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcaa"
+  },
+  "boletaAlumno": 2020991234,
+  "nombres": "Eduardo",
+  "apellidoPaterno": "García",
+  "apellidoMaterno": "López",
+  "correoElectronico": "eduardo.garcia@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5557894561"
+  },
+  "curp": "EDGALO2000HDFQWE",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Benito Juárez",
+  "colonia": "Nápoles",
+  "cp": 3810,
+  "calle": "Av. Insurgentes Sur",
+  "numeroExterior": 88
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcab"
+  },
+  "boletaAlumno": 2020887324,
+  "nombres": "Fernanda",
+  "apellidoPaterno": "Martínez",
+  "apellidoMaterno": "Sánchez",
+  "correoElectronico": "fernanda.martinez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5547354987"
+  },
+  "curp": "FEMASA2001MDFYTR",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Álvaro Obregón",
+  "colonia": "Santa Fe",
+  "cp": 1219,
+  "calle": "Av. Santa Fe",
+  "numeroExterior": 90
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcac"
+  },
+  "boletaAlumno": 2020678890,
+  "nombres": "Javier",
+  "apellidoPaterno": "Lara",
+  "apellidoMaterno": "Morales",
+  "correoElectronico": "javier.lara@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5588546732"
+  },
+  "curp": "JALAMO2002HDFRSA",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Magdalena Contreras",
+  "colonia": "San Jerónimo",
+  "cp": 10200,
+  "calle": "Av. San Jerónimo",
+  "numeroExterior": 21
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcad"
+  },
+  "boletaAlumno": 2020584421,
+  "nombres": "Isabel",
+  "apellidoPaterno": "Guzmán",
+  "apellidoMaterno": "Soto",
+  "correoElectronico": "isabel.guzman@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5567890123"
+  },
+  "curp": "ISAGSO2001HDFCVB",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Iztapalapa",
+  "colonia": "Unidad Modelo",
+  "cp": 9310,
+  "calle": "Calle Pino",
+  "numeroExterior": 6
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcae"
+  },
+  "boletaAlumno": 2020349338,
+  "nombres": "Roberto",
+  "apellidoPaterno": "Pérez",
+  "apellidoMaterno": "Hernández",
+  "correoElectronico": "roberto.perez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "55501334629"
+  },
+  "curp": "ROPEHE2001HDFBNM",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Cuajimalpa",
+  "colonia": "Contadero",
+  "cp": 2560,
+  "calle": "Av. Juárez",
+  "numeroExterior": 57
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcaf"
+  },
+  "boletaAlumno": 2020108123,
+  "nombres": "Daniela",
+  "apellidoPaterno": "Fuentes",
+  "apellidoMaterno": "Ríos",
+  "correoElectronico": "daniela.fuentes@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5532046823"
+  },
+  "curp": "DANFRI2000MDFGHN",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Cuajimalpa",
+  "colonia": "Las Águilas",
+  "cp": 2768,
+  "calle": "Calle Fresno",
+  "numeroExterior": 68
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcb0"
+  },
+  "boletaAlumno": 2020998765,
+  "nombres": "Ricardo",
+  "apellidoPaterno": "Soto",
+  "apellidoMaterno": "Morales",
+  "correoElectronico": "ricardo.soto@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5576543210"
+  },
+  "curp": "RISMOR2001HDFCVB",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Xochimilco",
+  "colonia": "Barrio 18",
+  "cp": 16090,
+  "calle": "Callejón del Establo",
+  "numeroExterior": 112
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcb1"
+  },
+  "boletaAlumno": 2021630284,
+  "nombres": "René",
+  "apellidoPaterno": "Solís",
+  "apellidoMaterno": "López",
+  "correoElectronico": "rene.solis@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5558223542"
+  },
+  "curp": "RESOLO1999HDFZOE",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Miguel Hidalgo",
+  "colonia": "Anzures",
+  "cp": 11590,
+  "calle": "Gutenberg",
+  "numeroExterior": 75
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcb2"
+  },
+  "boletaAlumno": 2020765432,
+  "nombres": "Carlos",
+  "apellidoPaterno": "Hernández",
+  "apellidoMaterno": "Zapata",
+  "correoElectronico": "carlos.hernandez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5599775809"
+  },
+  "curp": "CAHEZA2002HDFAZS",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Benito Juárez",
+  "colonia": "Del Valle",
+  "cp": 1600,
+  "calle": "Tajín",
+  "numeroExterior": 23
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcb3"
+  },
+  "boletaAlumno": 2020006743,
+  "nombres": "Ximena",
+  "apellidoPaterno": "Baez",
+  "apellidoMaterno": "Ramírez",
+  "correoElectronico": "ximena.baez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5533278354"
+  },
+  "curp": "XIBARA2001MDFZZA",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Azcapotzalco",
+  "colonia": "Clavería",
+  "cp": 2080,
+  "calle": "Av. Cuitláhuac",
+  "numeroExterior": 67
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcb4"
+  },
+  "boletaAlumno": 2020448765,
+  "nombres": "Alexis",
+  "apellidoPaterno": "González",
+  "apellidoMaterno": "San Juan",
+  "correoElectronico": "alexis.gonzalez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5534227456"
+  },
+  "curp": "ALGOSJ2000HDFNZS",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Gustavo A. Madero",
+  "colonia": "La Purísima Ticoman",
+  "cp": 3792,
+  "calle": "Plan de Ayala",
+  "numeroExterior": 88
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcb5"
+  },
+  "boletaAlumno": 2020635466,
+  "nombres": "Aura",
+  "apellidoPaterno": "Mendoza",
+  "apellidoMaterno": "Zuñiga",
+  "correoElectronico": "aura.mendoza@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5524857498"
+  },
+  "curp": "AUMEZU2001MDFARA",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Cuauhtémoc",
+  "colonia": "Santa María La Ribera",
+  "cp": 3328,
+  "calle": "Fresno",
+  "numeroExterior": 19
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcb6"
+  },
+  "boletaAlumno": 2020779327,
+  "nombres": "Vivian",
+  "apellidoPaterno": "González",
+  "apellidoMaterno": "Ramírez",
+  "correoElectronico": "vivian.gonzalez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5513224287"
+  },
+  "curp": "VIGORA2000MDFZZV",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Cuauhtémoc",
+  "colonia": "San Rafael",
+  "cp": 3384,
+  "calle": "Velázquez de León",
+  "numeroExterior": 37
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcb7"
+  },
+  "boletaAlumno": 2021865743,
+  "nombres": "Alán",
+  "apellidoPaterno": "Nicolás",
+  "apellidoMaterno": "Samano",
+  "correoElectronico": "alan.nicolas@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5678453209"
+  },
+  "curp": "ALNISA2001HDFOSN",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Álvaro Obregón",
+  "colonia": "Águilas",
+  "cp": 968,
+  "calle": "Meseta",
+  "numeroExterior": 5
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcb8"
+  },
+  "boletaAlumno": 2021865740,
+  "nombres": "Manuel",
+  "apellidoPaterno": "Fuentes",
+  "apellidoMaterno": "Guerra",
+  "correoElectronico": "manuel.fuentes@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5644239807"
+  },
+  "curp": "MAFUGU1999HDFASL",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Iztapalapa",
+  "colonia": "Zona Urbana Ejidal Santa María Aztahuacan",
+  "cp": 9570,
+  "calle": "5 de Mayo",
+  "numeroExterior": 120
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcb9"
+  },
+  "boletaAlumno": 2020023977,
+  "nombres": "Alondra",
+  "apellidoPaterno": "Mata",
+  "apellidoMaterno": "González",
+  "correoElectronico": "alondra.mata@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5598709087"
+  },
+  "curp": "ALMAGO2001MDFZAA",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Coyoacán",
+  "colonia": "Pedregal de Santo Domingo",
+  "cp": 4369,
+  "calle": "Oculin",
+  "numeroExterior": 68
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcba"
+  },
+  "boletaAlumno": 2021547958,
+  "nombres": "Oscar",
+  "apellidoPaterno": "Gabino",
+  "apellidoMaterno": "Perea",
+  "correoElectronico": "oscar.gabino@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5555998236"
+  },
+  "curp": "OSGAPE1999HDFAOR",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Tlalpan",
+  "colonia": "Lomas de Padierna",
+  "cp": 14240,
+  "calle": "Hopelchén",
+  "numeroExterior": 75
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcbb"
+  },
+  "boletaAlumno": 2021764566,
+  "nombres": "Abigail",
+  "apellidoPaterno": "León",
+  "apellidoMaterno": "Montoya",
+  "correoElectronico": "abigail.leon@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5677235431"
+  },
+  "curp": "ABLEMO1999MDFANL",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Iztapalapa",
+  "colonia": "San Lorenzo",
+  "cp": 9870,
+  "calle": "Av. Zaragoza",
+  "numeroExterior": 90
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcbc"
+  },
+  "boletaAlumno": 2021007337,
+  "nombres": "Noah",
+  "apellidoPaterno": "Sánchez",
+  "apellidoMaterno": "Robles",
+  "correoElectronico": "noah.sanchez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5622635095"
+  },
+  "curp": "NOSARO2001HDFSZH",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Azcapotzalco",
+  "colonia": "Clavería",
+  "cp": 2080,
+  "calle": "Av. Cuitláhuac",
+  "numeroExterior": 901
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcbd"
+  },
+  "boletaAlumno": 2021007337,
+  "nombres": "James",
+  "apellidoPaterno": "Ríos",
+  "apellidoMaterno": "Piña",
+  "correoElectronico": "james.rios@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5600968576"
+  },
+  "curp": "JARIFE2001HDFASR",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Venustiano Carranza",
+  "colonia": "Romero Rubio",
+  "cp": 15400,
+  "calle": "Corea",
+  "numeroExterior": 55
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcbe"
+  },
+  "boletaAlumno": 2021889090,
+  "nombres": "Ava",
+  "apellidoPaterno": "Ortega",
+  "apellidoMaterno": "Silva",
+  "correoElectronico": "ava.ortega@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5546783900"
+  },
+  "curp": "AVORSI2000MDFAAV",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Venustiano Carranza",
+  "colonia": "Morelos",
+  "cp": 15270,
+  "calle": "Av. Oceanía",
+  "numeroExterior": 47
+},
+{
+  "_id": {
+    "$oid": "6492fdd3444fad65533edcbf"
+  },
+  "boletaAlumno": 2020132298,
+  "nombres": "William",
+  "apellidoPaterno": "Vargas",
+  "apellidoMaterno": "Guzmán",
+  "correoElectronico": "william.vargas@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5613667894"
+  },
+  "curp": "WIVAGU2001HDFNSM",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Magdalena Contreras",
+  "colonia": "San Jerónimo Lídice",
+  "cp": 10200,
+  "calle": "José María Morelos",
+  "numeroExterior": 174
+},
+{
+  "_id": {
+    "$oid": "6492ff52444fad65533edccb"
+  },
+  "boletaAlumno": 2020132297,
+  "nombres": "Aria",
+  "apellidoPaterno": "Ramírez",
+  "apellidoMaterno": "Carmona",
+  "correoElectronico": "aria.ramirez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5688793422"
+  },
+  "curp": "ARRALU2001MDFDSA",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Miguel Hidalgo",
+  "colonia": "Polanco",
+  "cp": 11560,
+  "calle": "Galileo",
+  "numeroExterior": 29
+},
+{
+  "_id": {
+    "$oid": "6492fffd444fad65533edccc"
+  },
+  "boletaAlumno": 2020168594,
+  "nombres": "Camila",
+  "apellidoPaterno": "Silva",
+  "apellidoMaterno": "Flores",
+  "correoElectronico": "camila.silva@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5688793422"
+  },
+  "curp": "CASIFL2002MDFGTY",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Benito Juárez",
+  "colonia": "Narvarte Oriente",
+  "cp": 1555,
+  "calle": "Concepción Beistegui",
+  "numeroExterior": 1905
+},
+{
+  "_id": {
+    "$oid": "6492fffd444fad65533edccd"
+  },
+  "boletaAlumno": 2021396657,
+  "nombres": "Julia",
+  "apellidoPaterno": "Salazar",
+  "apellidoMaterno": "Morales",
+  "correoElectronico": "julia.salazar@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5545667881"
+  },
+  "curp": "JUSAMO2001MDFSRA",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Iztacalco",
+  "colonia": "Agrícola Pantitlán",
+  "cp": 8000,
+  "calle": "Av. Río Churubusco",
+  "numeroExterior": 549
+},
+{
+  "_id": {
+    "$oid": "6492fffd444fad65533edcce"
+  },
+  "boletaAlumno": 2021758899,
+  "nombres": "Scarlett",
+  "apellidoPaterno": "Martínez",
+  "apellidoMaterno": "Gómez",
+  "correoElectronico": "scarlett.martinez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5577335649"
+  },
+  "curp": "SCAMGO2002MDFHGF",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Gustavo A. Madero",
+  "colonia": "Lindavista",
+  "cp": 3776,
+  "calle": "Av. Instituto Politécnico Nacional",
+  "numeroExterior": 64
+},
+{
+  "_id": {
+    "$oid": "6492fffd444fad65533edccf"
+  },
+  "boletaAlumno": 2020132290,
+  "nombres": "David",
+  "apellidoPaterno": "Macías",
+  "apellidoMaterno": "Morales",
+  "correoElectronico": "david.macias@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5564789600"
+  },
+  "curp": "DAMAMO1999HDFSSD",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Iztacalco",
+  "colonia": "Agrícola Pantitlán",
+  "cp": 8000,
+  "calle": "Av. Río Churubusco",
+  "numeroExterior": 36
+},
+{
+  "_id": {
+    "$oid": "6492fffd444fad65533edcd0"
+  },
+  "boletaAlumno": 2021775900,
+  "nombres": "Zoe",
+  "apellidoPaterno": "Anaya",
+  "apellidoMaterno": "López",
+  "correoElectronico": "zoe.anaya@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5501229540"
+  },
+  "curp": "ZOANLO2000HDFZAE",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Coyoacán",
+  "colonia": "Ex-Ejido de San Francisco Culhuacan",
+  "cp": 2320,
+  "calle": "Ejido Sta. Catarina",
+  "numeroExterior": 90
+},
+{
+  "_id": {
+    "$oid": "6492fffd444fad65533edcd1"
+  },
+  "boletaAlumno": 2021095768,
+  "nombres": "César",
+  "apellidoPaterno": "Contreras",
+  "apellidoMaterno": "Barrón",
+  "correoElectronico": "cesar.contreras@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5684375467"
+  },
+  "curp": "CECOBA1999HDFNSR",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Iztapalapa",
+  "colonia": "San Lorenzo",
+  "cp": 9870,
+  "calle": "Av. Zaragoza",
+  "numeroExterior": 937
+},
+{
+  "_id": {
+    "$oid": "6492fffd444fad65533edcd2"
+  },
+  "boletaAlumno": 2020095268,
+  "nombres": "Samuel",
+  "apellidoPaterno": "Llerena",
+  "apellidoMaterno": "Flores",
+  "correoElectronico": "samuel.llerena@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5622374546"
+  },
+  "curp": "SALLFL2000HDFSAL",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Magdalena Contreras",
+  "colonia": "El Tanque",
+  "cp": 10320,
+  "calle": "1a. Cda. de Amapola",
+  "numeroExterior": 5
+},
+{
+  "_id": {
+    "$oid": "6492fffd444fad65533edcd3"
+  },
+  "boletaAlumno": 2020025960,
+  "nombres": "Lucia",
+  "apellidoPaterno": "Benitez",
+  "apellidoMaterno": "Román",
+  "correoElectronico": "lucia.benitez@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5576449800"
+  },
+  "curp": "LUBERO2001MDFNZA",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Xochimilco",
+  "colonia": "División del Norte",
+  "cp": 3776,
+  "calle": "Olivos",
+  "numeroExterior": 30
+},
+{
+  "_id": {
+    "$oid": "6492fffd444fad65533edcd4"
+  },
+  "boletaAlumno": 2021095746,
+  "nombres": "Mariela",
+  "apellidoPaterno": "Armenta",
+  "apellidoMaterno": "Gutiérrez",
+  "correoElectronico": "mariela.armenta@alumno.ipn.mx",
+  "telefono": {
+    "$numberLong": "5644389022"
+  },
+  "curp": "MAARGU2001MDFZAA",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Tlalpan",
+  "colonia": "Vergel de Coyoacán",
+  "cp": 14340,
+  "calle": "Atenco",
+  "numeroExterior": 72
+}]

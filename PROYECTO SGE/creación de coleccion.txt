@@ -1,0 +1,259 @@
+---------------------------- COLECCIONES ----------------------------------
+************* ALUMNOS*****************
+db.createCollection("Alumno", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: [ "boletaAlumno", "nombres", "apellidoPaterno", "apellidoMaterno", "correoElectronico", "telefono","curp", "sexo", "estado","alcaldia","colonia","cp","calle","numeroExterior"],
+         properties: {
+            boletaAlumno: {
+               bsonType: "int"
+            },
+            nombres: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            apellidoPaterno: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            apellidoMaterno: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            correoElectronico: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            telefono: {
+               bsonType: "double"
+            },
+            curp: {
+               bsonType: "string",
+               maxLength: 18
+            },     
+            sexo: {
+               enum: [ "Femenino", "Masculino" ],
+            },
+            estado: {
+               bsonType: "string",
+               maxLength: 30
+            },
+            alcaldia: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            colonia: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            cp: {
+               bsonType: "int",
+            },
+            calle: {
+               bsonType: "string",
+               maxLength: 100
+            },
+            numeroExterior: {
+               bsonType: "int"
+            },
+         }
+      }
+   }
+});
+
+**************** Profesor ********************
+db.createCollection("Profesor", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: [ "numeroEmpleado", "nombres", "apellidoPaterno", "apellidoMaterno", "correoElectronico", "telefono","curp", "sexo", "estado","alcaldia","colonia","cp","calle","numeroExterior", "rfc"],
+         properties: {
+            numeroEmpleado: {
+               bsonType: "int"
+            },
+            nombres: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            apellidoPaterno: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            apellidoMaterno: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            correoElectronico: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            telefono: {
+               bsonType: "double"
+            },
+            curp: {
+               bsonType: "string",
+               maxLength: 18
+            },     
+            sexo: {
+               enum: [ "Femenino", "Masculino" ],
+            },
+            estado: {
+               bsonType: "string",
+               maxLength: 30
+            },
+            alcaldia: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            colonia: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            cp: {
+               bsonType: "int",
+            },
+            calle: {
+               bsonType: "string",
+               maxLength: 100
+            },
+            numeroExterior: {
+               bsonType: "int"
+            },
+            rfc:{
+               bsonType: "string",
+               maxLength: 15
+            },
+         }
+      }
+   }
+});
+
+************ Tiempo ***************
+db.createCollection("Tiempo", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["idTiempo", "dia", "mes", "semestre", "anio"],
+         properties: {
+            idTiempo: {
+               bsonType: "int"
+            },
+            dia: {
+               bsonType: "int"
+            },
+            mes: {
+               bsonType: "int"
+            },
+            semestre: {
+               bsonType: "int"
+            },
+            anio: {
+               bsonType: "int"
+            },
+         }
+      }
+   }
+});
+
+*********** Semestre *********
+db.createCollection("Semestre", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["idSemestre", "carrera", "materiasBasicas", "materiasHumanisticas", "materiasCarrera", "creditosEsperados"],
+         properties: {
+            idSemestre: {
+               bsonType: "int"
+            },
+            carrera: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            materiasBasicas: {
+               bsonType: "int"
+            },
+            materiasHumanisticas: {
+               bsonType: "int"
+            },
+            materiasCarrera: {
+               bsonType: "int"
+            },
+            creditosEsperados: {
+               bsonType: "int"
+            },
+         }
+      }
+   }
+});
+
+************** Materias **************
+db.createCollection("Materia", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["idMateria", "nombreMateria", "carrera", "creditos", "area"],
+         properties: {
+            idMateria: {
+               bsonType: "int"
+            },
+            nombreMateria: {
+               bsonType: "string",
+               maxLength: 70
+            },
+            carrera: {
+               bsonType: "string",
+               maxLength: 70
+            },
+            creditos: {
+               bsonType: "int"
+            },
+            area: {
+               bsonType: "string",
+               maxLength: 50
+            },
+         }
+      }
+   }
+});
+
+******** Resultados ************
+
+db.createCollection("Resultados", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["idResultado", "boletaAlumno", "numeroEmpleado", "idMateria", "idSemestre", "idTiempo", "calificacionMateriaAlumno", "EvaluacionProfesor"],
+         properties: {
+            idResultado: {
+               bsonType: "int"
+            },
+            boletaAlumno: {
+               bsonType: "objectId"
+            },
+            numeroEmpleado: {
+               bsonType: "objectId"
+            },
+            idMateria: {
+               bsonType: "objectId"
+            },
+            idSemestre: {
+               bsonType: "objectId"
+            },
+            idTiempo: {
+               bsonType: "objectId"
+            },
+            calificacionMateriaAlumno: {
+               bsonType: "int"
+            },
+            EvaluacionProfesor: {
+               bsonType: "int"
+            },
+         }
+      }
+   }
+});
+
+
+
+

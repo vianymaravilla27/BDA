@@ -1,0 +1,46 @@
+db.createCollection("Resultados", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["idResultado", "alumno", "profesor", "materia", "semestre", "tiempo", "calificacionMateriaAlumno", "evaluacionProfesor"],
+         properties: {
+            idResultado: {
+               bsonType: "int",
+               description: "Identificador del resultado"
+            },
+            alumno: {
+               bsonType: "objectId",
+               description: "Referencia al documento del alumno"
+            },
+            profesor: {
+               bsonType: "objectId",
+               description: "Referencia al documento del profesor"
+            },
+            materia: {
+               bsonType: "objectId",
+               description: "Referencia al documento de la materia"
+            },
+            semestre: {
+               bsonType: "objectId",
+               description: "Referencia al documento del semestre"
+            },
+            tiempo: {
+               bsonType: "objectId",
+               description: "Referencia al documento del tiempo"
+            },
+            calificacionMateriaAlumno: {
+               bsonType: "int",
+               description: "Calificación de la materia para el alumno",
+               minimum: 0,
+               maximum: 9999
+            },
+            evaluacionProfesor: {
+               bsonType: "int",
+               description: "Evaluación del profesor",
+               minimum: 0,
+               maximum: 9999
+            }
+         }
+      }
+   }
+})

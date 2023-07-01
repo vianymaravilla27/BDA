@@ -1,0 +1,240 @@
+[{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdeb8"
+  },
+  "idMateria": 2011,
+  "nombreMateria": "Cálculo Multivariable",
+  "carrera": "Licenciatura en Ciencia de Datos",
+  "creditos": 7,
+  "area": "Básicas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdeb9"
+  },
+  "idMateria": 2012,
+  "nombreMateria": "Comunicación Oral y Escrita",
+  "carrera": "Licenciatura en Ciencia de Datos",
+  "creditos": 7,
+  "area": "Humanísticas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdeba"
+  },
+  "idMateria": 4011,
+  "nombreMateria": "Matemáticas Discretas",
+  "carrera": "Licenciatura en Ciencia de Datos",
+  "creditos": 7,
+  "area": "Básicas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdebb"
+  },
+  "idMateria": 4012,
+  "nombreMateria": "Fundamentos Económicos",
+  "carrera": "Licenciatura en Ciencia de Datos",
+  "creditos": 7,
+  "area": "Básicas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdebc"
+  },
+  "idMateria": 4013,
+  "nombreMateria": "Ética y Legalidad",
+  "carrera": "Licenciatura en Ciencia de Datos",
+  "creditos": 7,
+  "area": "Humanísticas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdebd"
+  },
+  "idMateria": 6011,
+  "nombreMateria": "Series de Tiempo",
+  "carrera": "Licenciatura en Ciencia de Datos",
+  "creditos": 7,
+  "area": "Básicas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdebe"
+  },
+  "idMateria": 6012,
+  "nombreMateria": "Estadística",
+  "carrera": "Licenciatura en Ciencia de Datos",
+  "creditos": 7,
+  "area": "Básicas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdebf"
+  },
+  "idMateria": 6013,
+  "nombreMateria": "Liderazgo Personal",
+  "carrera": "Licenciatura en Ciencia de Datos",
+  "creditos": 7,
+  "area": "Humanísticas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdec0"
+  },
+  "idMateria": 2021,
+  "nombreMateria": "Álgebra Lineal",
+  "carrera": "Ingeniería en Sistemas Computacionales",
+  "creditos": 7,
+  "area": "Básicas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdec1"
+  },
+  "idMateria": 2022,
+  "nombreMateria": "Comunicación Oral y Escrita",
+  "carrera": "Ingeniería en Sistemas Computacionales",
+  "creditos": 7,
+  "area": "Humanísticas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdec2"
+  },
+  "idMateria": 4021,
+  "nombreMateria": "Cálculo Aplicado",
+  "carrera": "Ingeniería en Sistemas Computacionales",
+  "creditos": 7,
+  "area": "Básicas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdec3"
+  },
+  "idMateria": 4022,
+  "nombreMateria": "Algoritmos",
+  "carrera": "Ingeniería en Sistemas Computacionales",
+  "creditos": 7,
+  "area": "Básicas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdec4"
+  },
+  "idMateria": 4023,
+  "nombreMateria": "Liderazgo Personal",
+  "carrera": "Ingeniería en Sistemas Computacionales",
+  "creditos": 7,
+  "area": "Humanísticas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdec5"
+  },
+  "idMateria": 6021,
+  "nombreMateria": "Sistemas Operativos",
+  "carrera": "Ingeniería en Sistemas Computacionales",
+  "creditos": 7,
+  "area": "Básicas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdec6"
+  },
+  "idMateria": 6022,
+  "nombreMateria": "Electrónica",
+  "carrera": "Ingeniería en Sistemas Computacionales",
+  "creditos": 7,
+  "area": "Básicas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdec7"
+  },
+  "idMateria": 6023,
+  "nombreMateria": "Metodología",
+  "carrera": "Ingeniería en Sistemas Computacionales",
+  "creditos": 7,
+  "area": "Humanísticas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdec8"
+  },
+  "idMateria": 2031,
+  "nombreMateria": "Cálculo",
+  "carrera": "Ingeniería en Inteligencia Artificial",
+  "creditos": 7,
+  "area": "Básicas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdec9"
+  },
+  "idMateria": 2032,
+  "nombreMateria": "Comunicación Oral y Escrita",
+  "carrera": "Ingeniería en Inteligencia Artificial",
+  "creditos": 7,
+  "area": "Humanísticas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdeca"
+  },
+  "idMateria": 4031,
+  "nombreMateria": "Diseño Digital",
+  "carrera": "Ingeniería en Inteligencia Artificial",
+  "creditos": 7,
+  "area": "Básicas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdecb"
+  },
+  "idMateria": 4032,
+  "nombreMateria": "Diseño de Algoritmos",
+  "carrera": "Ingeniería en Inteligencia Artificial",
+  "creditos": 7,
+  "area": "Básicas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdecc"
+  },
+  "idMateria": 4033,
+  "nombreMateria": "Ética y Sociedad",
+  "carrera": "Ingeniería en Inteligencia Artificial",
+  "creditos": 7,
+  "area": "Humanísticas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdecd"
+  },
+  "idMateria": 6031,
+  "nombreMateria": "Visión Artificial",
+  "carrera": "Ingeniería en Inteligencia Artificial",
+  "creditos": 7,
+  "area": "Básicas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdece"
+  },
+  "idMateria": 6032,
+  "nombreMateria": "Aprendizaje de Máquina",
+  "carrera": "Ingeniería en Inteligencia Artificial",
+  "creditos": 7,
+  "area": "Básicas"
+},
+{
+  "_id": {
+    "$oid": "64938e05ce618363e96bdecf"
+  },
+  "idMateria": 6033,
+  "nombreMateria": "Metodología",
+  "carrera": "Ingeniería en Inteligencia Artificial",
+  "creditos": 7,
+  "area": "Humanísticas"
+}]

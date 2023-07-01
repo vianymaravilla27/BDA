@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "idTiempo": 1323,
+  "dia": 20,
+  "mes": 6,
+  "semestre": 2,
+  "anio": 2023
+}]

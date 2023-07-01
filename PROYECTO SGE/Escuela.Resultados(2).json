@@ -1,0 +1,2760 @@
+[{
+  "_id": {
+    "$oid": "6493fbd501215670d4de390b"
+  },
+  "idResultado": 101,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edc9d"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f62"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeb8"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeaf"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de390c"
+  },
+  "idResultado": 102,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edc9e"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f62"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeb8"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeaf"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de390d"
+  },
+  "idResultado": 103,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edc9f"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f62"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeb8"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeaf"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de390e"
+  },
+  "idResultado": 104,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca0"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f62"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeb8"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeaf"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de390f"
+  },
+  "idResultado": 105,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca1"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f62"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeb8"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeaf"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3910"
+  },
+  "idResultado": 106,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edc9d"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f63"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeb9"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeaf"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3911"
+  },
+  "idResultado": 107,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edc9e"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f63"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeb9"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeaf"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3912"
+  },
+  "idResultado": 108,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edc9f"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f63"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeb9"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeaf"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3913"
+  },
+  "idResultado": 109,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca0"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f63"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeb9"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeaf"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3914"
+  },
+  "idResultado": 110,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca1"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f63"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeb9"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeaf"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3915"
+  },
+  "idResultado": 111,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca2"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f62"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeba"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 5,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3916"
+  },
+  "idResultado": 112,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca3"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f62"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeba"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3917"
+  },
+  "idResultado": 113,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca4"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f62"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeba"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 6,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3918"
+  },
+  "idResultado": 114,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca5"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f62"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeba"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3919"
+  },
+  "idResultado": 115,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca6"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f62"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeba"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de391a"
+  },
+  "idResultado": 116,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca2"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f64"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebb"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de391b"
+  },
+  "idResultado": 117,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca3"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f64"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebb"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de391c"
+  },
+  "idResultado": 118,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca4"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f64"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebb"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de391d"
+  },
+  "idResultado": 119,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca5"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f64"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebb"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de391e"
+  },
+  "idResultado": 120,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca6"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f64"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebb"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de391f"
+  },
+  "idResultado": 121,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca2"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f63"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebc"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3920"
+  },
+  "idResultado": 122,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca3"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f63"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebc"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3921"
+  },
+  "idResultado": 123,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca4"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f63"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebc"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3922"
+  },
+  "idResultado": 124,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca5"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f63"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebc"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3923"
+  },
+  "idResultado": 125,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca6"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f63"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebc"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3924"
+  },
+  "idResultado": 126,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca7"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f64"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebd"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 6,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3925"
+  },
+  "idResultado": 127,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca8"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f64"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebd"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3926"
+  },
+  "idResultado": 128,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca9"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f64"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebd"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3927"
+  },
+  "idResultado": 129,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcaa"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f64"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebd"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 6,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3928"
+  },
+  "idResultado": 130,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcab"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f64"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebd"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3929"
+  },
+  "idResultado": 131,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca7"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f65"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebe"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 4,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de392a"
+  },
+  "idResultado": 132,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca8"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f65"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebe"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 6,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de392b"
+  },
+  "idResultado": 133,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca9"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f65"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebe"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 5,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de392c"
+  },
+  "idResultado": 134,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcaa"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f65"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebe"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 3,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de392d"
+  },
+  "idResultado": 135,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcab"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f65"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebe"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de392e"
+  },
+  "idResultado": 136,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca7"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f66"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebf"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de392f"
+  },
+  "idResultado": 137,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca8"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f66"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebf"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3930"
+  },
+  "idResultado": 138,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edca9"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f66"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebe"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3931"
+  },
+  "idResultado": 139,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcaa"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f66"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebf"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3932"
+  },
+  "idResultado": 140,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcab"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f66"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdebf"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3933"
+  },
+  "idResultado": 141,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcac"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f65"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec0"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb2"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 5,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3934"
+  },
+  "idResultado": 142,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcad"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f65"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec0"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb2"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 6,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3935"
+  },
+  "idResultado": 143,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcae"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f65"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec0"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb2"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3936"
+  },
+  "idResultado": 144,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcaf"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f65"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec0"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb2"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 5,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3937"
+  },
+  "idResultado": 145,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb0"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f65"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec0"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb2"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 6,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3938"
+  },
+  "idResultado": 146,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcac"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f66"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec1"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb2"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3939"
+  },
+  "idResultado": 147,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcad"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f66"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec1"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb2"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de393a"
+  },
+  "idResultado": 148,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcae"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f66"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec1"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb2"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de393b"
+  },
+  "idResultado": 149,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcaf"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f66"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec1"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb2"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de393c"
+  },
+  "idResultado": 150,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb0"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f66"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec1"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb2"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 6,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de393d"
+  },
+  "idResultado": 151,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb1"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f67"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec2"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de393e"
+  },
+  "idResultado": 152,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb2"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f67"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec2"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de393f"
+  },
+  "idResultado": 153,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb5"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f67"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec2"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3940"
+  },
+  "idResultado": 154,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb3"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f67"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec2"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3941"
+  },
+  "idResultado": 155,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb4"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f67"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec2"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3942"
+  },
+  "idResultado": 156,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb1"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec3"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 5,
+  "EvaluacionProfesor": 1
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3943"
+  },
+  "idResultado": 157,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb2"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec3"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 5,
+  "EvaluacionProfesor": 1
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3944"
+  },
+  "idResultado": 158,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb5"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec3"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 6,
+  "EvaluacionProfesor": 1
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3945"
+  },
+  "idResultado": 159,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb3"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec3"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 4,
+  "EvaluacionProfesor": 1
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3946"
+  },
+  "idResultado": 160,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb4"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec3"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 3,
+  "EvaluacionProfesor": 1
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3947"
+  },
+  "idResultado": 161,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb1"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec4"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3948"
+  },
+  "idResultado": 162,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb2"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec4"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3949"
+  },
+  "idResultado": 163,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb5"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec4"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de394a"
+  },
+  "idResultado": 164,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb3"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec4"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 5,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de394b"
+  },
+  "idResultado": 165,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb4"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec4"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de394c"
+  },
+  "idResultado": 166,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcba"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f67"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec5"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de394d"
+  },
+  "idResultado": 167,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb6"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f67"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec5"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de394e"
+  },
+  "idResultado": 168,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb7"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f67"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec5"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de394f"
+  },
+  "idResultado": 169,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb8"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f67"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec5"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3950"
+  },
+  "idResultado": 170,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb9"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f67"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec5"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3951"
+  },
+  "idResultado": 171,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcba"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec6"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3952"
+  },
+  "idResultado": 172,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb6"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec6"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3953"
+  },
+  "idResultado": 173,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb7"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec6"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 5,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3954"
+  },
+  "idResultado": 174,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb8"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec6"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 6,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3955"
+  },
+  "idResultado": 175,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb9"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec6"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 5,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3956"
+  },
+  "idResultado": 176,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcba"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec7"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3957"
+  },
+  "idResultado": 177,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb6"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec7"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3958"
+  },
+  "idResultado": 178,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb7"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec7"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de3959"
+  },
+  "idResultado": 179,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb8"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec7"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbd501215670d4de395a"
+  },
+  "idResultado": 180,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcb9"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec7"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de395b"
+  },
+  "idResultado": 181,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcbf"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec8"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb5"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de395c"
+  },
+  "idResultado": 182,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcbb"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec8"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb5"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de395d"
+  },
+  "idResultado": 183,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcbc"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec8"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb5"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de395e"
+  },
+  "idResultado": 184,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcbd"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec8"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb5"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de395f"
+  },
+  "idResultado": 185,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcbe"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec8"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb5"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3960"
+  },
+  "idResultado": 186,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcbf"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec9"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb5"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3961"
+  },
+  "idResultado": 187,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcbb"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec9"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb5"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3962"
+  },
+  "idResultado": 188,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcbc"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec9"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb5"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3963"
+  },
+  "idResultado": 189,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcbd"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec9"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb5"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3964"
+  },
+  "idResultado": 190,
+  "boletaAlumno": {
+    "$oid": "6492fdd3444fad65533edcbe"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdec9"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb5"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3965"
+  },
+  "idResultado": 191,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edccf"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeca"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 4,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3966"
+  },
+  "idResultado": 192,
+  "boletaAlumno": {
+    "$oid": "6492ff52444fad65533edccb"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeca"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 4,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3967"
+  },
+  "idResultado": 193,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edccc"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeca"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 4,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3968"
+  },
+  "idResultado": 194,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edccd"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeca"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 4,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3969"
+  },
+  "idResultado": 195,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcce"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdeca"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 4,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de396a"
+  },
+  "idResultado": 196,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edccf"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecb"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 6,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de396b"
+  },
+  "idResultado": 197,
+  "boletaAlumno": {
+    "$oid": "6492ff52444fad65533edccb"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecb"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 6,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de396c"
+  },
+  "idResultado": 198,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edccc"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecb"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 5,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de396d"
+  },
+  "idResultado": 199,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edccd"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecb"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de396e"
+  },
+  "idResultado": 200,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcce"
+  },
+  "numeroEmpleado": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecb"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 2,
+  "EvaluacionProfesor": 2
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de396f"
+  },
+  "idResultado": 201,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edccf"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecc"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3970"
+  },
+  "idResultado": 202,
+  "boletaAlumno": {
+    "$oid": "6492ff52444fad65533edccb"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecc"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3971"
+  },
+  "idResultado": 203,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edccc"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecc"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3972"
+  },
+  "idResultado": 204,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edccd"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecc"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3973"
+  },
+  "idResultado": 205,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcce"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecc"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3974"
+  },
+  "idResultado": 206,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcd0"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecd"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3975"
+  },
+  "idResultado": 207,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcd1"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecd"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3976"
+  },
+  "idResultado": 208,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcd2"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecd"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 5,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3977"
+  },
+  "idResultado": 209,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcd3"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecd"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3978"
+  },
+  "idResultado": 210,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcd4"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecd"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3979"
+  },
+  "idResultado": 211,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcd0"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdece"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de397a"
+  },
+  "idResultado": 212,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcd1"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdece"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de397b"
+  },
+  "idResultado": 213,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcd2"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdece"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de397c"
+  },
+  "idResultado": 214,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcd3"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdece"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 10,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de397d"
+  },
+  "idResultado": 215,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcd4"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdece"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 4
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de397e"
+  },
+  "idResultado": 216,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcd0"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecf"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de397f"
+  },
+  "idResultado": 217,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcd1"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecf"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3980"
+  },
+  "idResultado": 218,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcd2"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecf"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 9,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3981"
+  },
+  "idResultado": 219,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcd3"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecf"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 7,
+  "EvaluacionProfesor": 3
+},
+{
+  "_id": {
+    "$oid": "6493fbe601215670d4de3982"
+  },
+  "idResultado": 220,
+  "boletaAlumno": {
+    "$oid": "6492fffd444fad65533edcd4"
+  },
+  "numeroEmpleado": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "idMateria": {
+    "$oid": "64938e05ce618363e96bdecf"
+  },
+  "idSemestre": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idTiempo": {
+    "$oid": "64924ba8e9e3defa3ffe3f6b"
+  },
+  "calificacionMateriaAlumno": 8,
+  "EvaluacionProfesor": 3
+}]

@@ -1,0 +1,426 @@
+---------------------------- COLECCIONES ----------------------------------
+************* ALUMNOS*****************
+db.createCollection("Alumno", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: [ "boletaAlumno", "nombres", "apellidoPaterno", "apellidoMaterno", "correoElectronico", "telefono","curp", "sexo", "estado","alcaldia","colonia","cp","calle","numeroExterior"],
+         properties: {
+            boletaAlumno: {
+               bsonType: "int"
+            },
+            nombres: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            apellidoPaterno: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            apellidoMaterno: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            correoElectronico: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            telefono: {
+               bsonType: "int"
+            },
+            curp: {
+               bsonType: "string",
+               maxLength: 18
+            },     
+            sexo: {
+               enum: [ "Femenino", "Masculino" ],
+            },
+            estado: {
+               bsonType: "string",
+               maxLength: 30
+            },
+            alcaldia: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            colonia: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            cp: {
+               bsonType: "int",
+            },
+            calle: {
+               bsonType: "string",
+               maxLength: 100
+            },
+            numeroExterior: {
+               bsonType: "int"
+            },
+         }
+      }
+   }
+});
+
+**************** Profesor ********************
+db.createCollection("Profesor", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: [ "numeroEmpleado", "nombres", "apellidoPaterno", "apellidoMaterno", "correoElectronico", "telefono","curp", "sexo", "estado","alcaldia","colonia","cp","calle","numeroExterior", "rfc"],
+         properties: {
+            numeroEmpleado: {
+               bsonType: "int"
+            },
+            nombres: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            apellidoPaterno: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            apellidoMaterno: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            correoElectronico: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            telefono: {
+               bsonType: "int"
+            },
+            curp: {
+               bsonType: "string",
+               maxLength: 18
+            },     
+            sexo: {
+               enum: [ "Femenino", "Masculino" ],
+            },
+            estado: {
+               bsonType: "string",
+               maxLength: 30
+            },
+            alcaldia: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            colonia: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            cp: {
+               bsonType: "int",
+            },
+            calle: {
+               bsonType: "string",
+               maxLength: 100
+            },
+            numeroExterior: {
+               bsonType: "int"
+            },
+            rfc:{
+               bsonType: "string",
+               maxLength: 15
+            },
+         }
+      }
+   }
+});
+
+************ Tiempo ***************
+db.createCollection("Tiempo", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["idTiempo", "dia", "mes", "parcial", "semestre", "anio"],
+         properties: {
+            idTiempo: {
+               bsonType: "int"
+            },
+            dia: {
+               bsonType: "int"
+            },
+            mes: {
+               bsonType: "int"
+            },
+            parcial: {
+               bsonType: "int"
+            },
+            semestre: {
+               bsonType: "int"
+            },
+            anio: {
+               bsonType: "int"
+            },
+         }
+      }
+   }
+});
+
+*********** Semestre *********
+db.createCollection("Semestre", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["idSemestre", "carrera", "materiasBasicas", "materiasHumanisticas", "materiasCarrera", "creditosEsperados"],
+         properties: {
+            idSemestre: {
+               bsonType: "int"
+            },
+            carrera: {
+               bsonType: "string",
+               maxLength: 50
+            },
+            materiasBasicas: {
+               bsonType: "int"
+            },
+            materiasHumanisticas: {
+               bsonType: "int"
+            },
+            materiasCarrera: {
+               bsonType: "int"
+            },
+            creditosEsperados: {
+               bsonType: "int"
+            },
+         }
+      }
+   }
+});
+
+************** Materias **************
+db.createCollection("Materia", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["idMateria", "nombreMateria", "carrera", "creditos", "departamento"],
+         properties: {
+            idMateria: {
+               bsonType: "int"
+            },
+            nombreMateria: {
+               bsonType: "string",
+               maxLength: 70
+            },
+            carrera: {
+               bsonType: "string",
+               maxLength: 70
+            },
+            creditos: {
+               bsonType: "int"
+            },
+            area: {
+               bsonType: "string",
+               maxLength: 50
+            },
+         }
+      }
+   }
+});
+
+******** Resultados ************
+
+db.createCollection("Resultados", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["idResultado", "boletaAlumno", "numeroEmpleado", "idMateria", "idSemestre", "idTiempo", "calificacionMateriaAlumno", "EvaluacionProfesor"],
+         properties: {
+            idResultado: {
+               bsonType: "objectId"
+            },
+            boletaAlumno: {
+               bsonType: "objectId"
+            },
+            numeroEmpleado: {
+               bsonType: "objectId"
+            },
+            idMateria: {
+               bsonType: "objectId"
+            },
+            idSemestre: {
+               bsonType: "objectId"
+            },
+            idTiempo: {
+               bsonType: "objectId"
+            },
+            calificacionMateriaAlumno: {
+               bsonType: "int"
+            },
+            EvaluacionProfesor: {
+               bsonType: "int"
+            },
+         }
+      }
+   }
+});
+
+----------------------------- INSERCIÓN DE DATOS EJEMPLOS ------------------------------
+************** Alumno   ***************
+db.Alumnos.insertMany([
+  {
+    "boletaAlumno": 123,
+    "nombres": "Juan",
+    "apellidoPaterno": "Perez",
+    "apellidoMaterno": "Gomez",
+    "correoElectronico": "juan@example.com",
+    "telefono": 1234567890,
+    "curp": "CURP123",
+    "sexo": "Masculino",
+    "estado": "Estado",
+    "alcaldia": "Alcaldia",
+    "colonia": "Colonia",
+    "cp": 12345,
+    "calle": "Calle",
+    "numeroExterior": 123,
+  },
+  {
+    "boletaAlumno": 456,
+    "nombres": "Maria",
+    "apellidoPaterno": "Lopez",
+    "apellidoMaterno": "Garcia",
+    "correoElectronico": "maria@example.com",
+    "telefono": 0987654321,
+    "curp": "CURP456",
+    "sexo": "Femenino",
+    "estado": "Estado",
+    "alcaldia": "Alcaldia",
+    "colonia": "Colonia",
+    "cp": 54321,
+    "calle": "Calle",
+    "numeroExterior": 456,
+  }
+]);
+
+********* Profesor ******************
+db.Profesor.insertMany([
+  {
+    numeroEmpleado: 12345,
+    nombres: "Juan",
+    apellidoPaterno: "Pérez",
+    apellidoMaterno: "García",
+    correoElectronico: "juan.perez@ejemplo.com",
+    telefono: 1234567890,
+    curp: "PEGJ123456HDFABC",
+    sexo: "Masculino",
+    estado: "Ciudad de México",
+    alcaldia: "Miguel Hidalgo",
+    colonia: "Polanco",
+    cp: 11560,
+    calle: "Avenida Presidente Masaryk",
+    numeroExterior: 123,
+    rfc:"PEGJ123456ABC"
+  }
+]);
+
+************* Tiempo ************
+db.Tiempo.insertOne({
+    idTiempo: 1,
+    dia: 1,
+    mes: 1,
+    parcial: 1,
+    semestre: 1,
+    anio: 2022
+});
+********* Semestre ********
+db.Semestre.insertOne({
+    idSemestre: 1,
+    carrera: "Ingeniería en Sistemas Computacionales",
+    materiasBasicas: 5,
+    materiasHumanisticas: 2,
+    materiasCarrera: 3,
+    creditosEsperados: 30
+});
+
+************* Materia ************* 
+db.Materia.insertOne({
+    idMateria: 1,
+    nombreMateria: "Cálculo Diferencial",
+    carrera: "Ingeniería en Sistemas Computacionales",
+    creditos: 8,
+    departamento: "Matemáticas"
+});
+
+************ Resultados ***********
+db.Resultados.insertOne({
+   idResultado: 1,
+   boletaAlumno: 123,
+   numeroEmpleado: 87654321,
+   idMateria: 1,
+   idSemestre: 1,
+   idTiempo: 1,
+   calificacionMateriaAlumno: 9,
+   EvaluacionProfesor: 8
+});
+
+------------------------- Consultas ---------------------
+Consulta 1:
+db.Resultados.aggregate([
+    {
+        $match: {
+            calificacionMateriaAlumno: { $lt: 6 }
+        }
+    },
+    {
+        $group: {
+            _id: "$idMateria",
+            count: { $sum: 1 }
+        }
+    },
+    {
+        $sort: { count: -1 }
+    },
+    {
+        $limit: 5
+    },
+    {
+        $lookup: {
+            from: "Resultados",
+            localField: "_id",
+            foreignField: "idMateria",
+            as: "resultados"
+        }
+    },
+    {
+        $unwind: "$resultados"
+    },
+    {
+        $lookup: {
+            from: "Tiempo",
+            localField: "resultados.idTiempo",
+            foreignField: "idTiempo",
+            as: "tiempo"
+        }
+    },
+    {
+        $unwind: "$tiempo"
+    },
+    {
+        $group: {
+            _id: "$tiempo.parcial",
+            avgGrade: { $avg: "$resultados.calificacionMateriaAlumno" }
+        }
+    },
+    {
+        $sort: { avgGrade: 1 }
+    },
+    {
+        $limit: 1
+    }
+])
+
+
+TOP 5
+db.Resultados.aggregate([
+   {
+      $group: {
+         _id: "$idMateria",
+         avgCalificacion: { $avg: "$calificacionMateriaAlumno" }
+      }
+   },
+   { $sort: { avgCalificacion: 1 } },
+   { $limit: 5 }
+])
+

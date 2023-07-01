@@ -1,0 +1,99 @@
+[{
+  "_id": {
+    "$oid": "64938dbbce618363e96bdeaf"
+  },
+  "idSemestre": 201,
+  "carrera": "Licenciatura en Ciencia de Datos",
+  "materiasBasicas": 1,
+  "materiasHumanisticas": 1,
+  "materiasCarrera": 2,
+  "creditosEsperados": 14
+},
+{
+  "_id": {
+    "$oid": "64938dbbce618363e96bdeb0"
+  },
+  "idSemestre": 401,
+  "carrera": "Licenciatura en Ciencia de Datos",
+  "materiasBasicas": 2,
+  "materiasHumanisticas": 1,
+  "materiasCarrera": 3,
+  "creditosEsperados": 21
+},
+{
+  "_id": {
+    "$oid": "64938dbbce618363e96bdeb1"
+  },
+  "idSemestre": 601,
+  "carrera": "Licenciatura en Ciencia de Datos",
+  "materiasBasicas": 2,
+  "materiasHumanisticas": 1,
+  "materiasCarrera": 3,
+  "creditosEsperados": 21
+},
+{
+  "_id": {
+    "$oid": "64938dbbce618363e96bdeb2"
+  },
+  "idSemestre": 202,
+  "carrera": "Ingeniería en Sistemas Computacionales",
+  "materiasBasicas": 1,
+  "materiasHumanisticas": 1,
+  "materiasCarrera": 2,
+  "creditosEsperados": 14
+},
+{
+  "_id": {
+    "$oid": "64938dbbce618363e96bdeb3"
+  },
+  "idSemestre": 402,
+  "carrera": "Ingeniería en Sistemas Computacionales",
+  "materiasBasicas": 2,
+  "materiasHumanisticas": 1,
+  "materiasCarrera": 3,
+  "creditosEsperados": 21
+},
+{
+  "_id": {
+    "$oid": "64938dbbce618363e96bdeb4"
+  },
+  "idSemestre": 602,
+  "carrera": "Ingeniería en Sistemas Computacionales",
+  "materiasBasicas": 2,
+  "materiasHumanisticas": 1,
+  "materiasCarrera": 3,
+  "creditosEsperados": 21
+},
+{
+  "_id": {
+    "$oid": "64938dbbce618363e96bdeb5"
+  },
+  "idSemestre": 203,
+  "carrera": "Ingeniería en Inteligencia Artificial",
+  "materiasBasicas": 1,
+  "materiasHumanisticas": 1,
+  "materiasCarrera": 2,
+  "creditosEsperados": 14
+},
+{
+  "_id": {
+    "$oid": "64938dbbce618363e96bdeb6"
+  },
+  "idSemestre": 403,
+  "carrera": "Ingeniería en Inteligencia Artificial",
+  "materiasBasicas": 2,
+  "materiasHumanisticas": 1,
+  "materiasCarrera": 3,
+  "creditosEsperados": 21
+},
+{
+  "_id": {
+    "$oid": "64938dbbce618363e96bdeb7"
+  },
+  "idSemestre": 603,
+  "carrera": "Ingeniería en Inteligencia Artificial",
+  "materiasBasicas": 2,
+  "materiasHumanisticas": 1,
+  "materiasCarrera": 3,
+  "creditosEsperados": 21
+}]

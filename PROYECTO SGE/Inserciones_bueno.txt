@@ -1,0 +1,226 @@
+connect / as sysdba;
+create user admonEscuela identified by admonEscuela;
+grant connect, resource to admonEscuela;
+connect admonEscuela/admonEscuela;
+
+-------------- Tabla Alumno --------------------------
+create table Alumno(
+boletaAlumno number(20),
+nombres varchar2(50) NOT NULL,
+apellidoPaterno varchar2(50) NOT NULL,
+apellidoMaterno varchar2(50) NOT NULL,
+correoElectronico varchar2(50) NOT NULL,
+telefono number(10) NOT NULL,
+curp varchar2(18),
+sexo char(1) NOT NULL,
+estado varchar2 (30) NOT NULL,
+alcaldia varchar2 (50) NOT NULL,
+colonia varchar2(50) NOT NULL,
+cp number (10) NOT NULL,
+calle varchar2 (100) NOT NULL,
+numeroExterior number (5) NOT NULL);
+
+--------------- Tabla Profesor ----------------------
+create table Profesor(
+numeroEmpleado number(20),
+nombres varchar2(50) NOT NULL,
+apellidoPaterno varchar2(50) NOT NULL,
+apellidoMaterno varchar2(50) NOT NULL,
+correoElectronico varchar2(50) NOT NULL,
+telefono number(10) NOT NULL,
+curp varchar2(18),
+sexo char(1) NOT NULL,
+estado varchar2 (30) NOT NULL,
+alcaldia varchar2 (50) NOT NULL,
+colonia varchar2(50) NOT NULL,
+cp number (10) NOT NULL,
+calle varchar2 (100) NOT NULL,
+numeroExterior number (5) NOT NULL,
+rfc varchar2 (15) NOT NULL);
+
+--------------- Materia -----------------------------
+create table Materia(
+idMateria number(4),
+nombreMateria varchar2(70) NOT NULL,
+carrera varchar2(50) NOT NULL,
+creditos number(3) NOT NULL,
+departamento varchar2(50) NOT NULL);
+
+------------------- Semestre ------------------------
+create table Semestre (
+idSemestre number (3),
+carrera varchar2 (50) NOT NULL,
+materiasBasicas number (2) NOT NULL,
+materiasHumanisticas number (2) NOT NULL,
+materiasCarrera number (2) NOT NULL,
+creditosEsperados number (4) NOT NULL );
+
+--------------------- Tiempo ------------------------
+create table Tiempo (
+idTiempo number (4),
+dia number(2) NOT NULL,
+mes number(2) NOT NULL,
+parcial number(1) NOT NULL,
+semestre number (1) NOT NULL,
+anio number (4) NOT NULL );
+
+------------------------ Resultados -----------------
+create table Resultados(
+idResultado number,
+boletaAlumno number(10) NOT NULL,
+numeroEmpleado number(10) NOT NULL,
+idMateria number(2) NOT NULL,
+idSemestre number(2) NOT NULL,
+idTiempo number(4) NOT NULL,
+calificacionMateriaAlumno number(2) NOT NULL,
+categoriaEvaluacionProfesor number(1) NOT NULL);
+
+----------- Establecer las primary key -------------------
+
+alter table Alumno add primary key (boletaAlumno);
+alter table Profesor add primary key (numeroEmpleado);
+alter table Materia add primary key (idMateria);
+alter table Semestre add primary key (idSemestre);
+alter table Tiempo add primary key (idTiempo);
+alter table Resultados add primary key (idResultado);
+
+
+alter table Resultados add constraint fk_Resultados_Alumno foreign key (boletaAlumno) references Alumno(boletaAlumno);
+
+alter table Resultados add constraint fk_Resultados_Profesor foreign key (numeroEmpleado) references Profesor(numeroEmpleado);
+
+alter table Resultados add constraint fk_Resultados_Materia foreign key (idMateria) references Materia(idMateria);
+
+alter table Resultados add constraint fk_Resultados_Semestre foreign key (idSemestre) references Semestre(idSemestre);
+
+alter table Resultados add constraint fk_Resultados_Tiempo foreign key (idTiempo) references Tiempo(idTiempo);
+
+---------------------------------------------------------------
+Finalmente, para corroborar que se realizaron correctamente los pasos anteriores, se consulta el nombre
+de las tablas disponibles para el usuario admonEscuela, así como las restricciones de las mismas:
+
+select table_name from user_tables;
+
+select table_name, constraint_name, constraint_type from user_constraints
+
+------------------------------ Insertar datos en la base de datos -----------------------
+******** Alumno *********
+INSERT INTO Alumno (boletaAlumno, nombres, apellidoPaterno, apellidoMaterno, correoElectronico, telefono, curp, sexo, estado, alcaldia, colonia, cp, calle, numeroExterior)
+VALUES (1234567890, 'Juan', 'Perez', 'Garcia', 'juan.perez@example.com', 1234567890, 'PEGJ123456HDFABC01', 'M', 'Ciudad de Mexico', 'Benito Juarez', 'Narvarte', 03020, 'Avenida Universidad', 123);
+
+INSERT INTO Alumno (boletaAlumno, nombres, apellidoPaterno, apellidoMaterno, correoElectronico, telefono, curp, sexo, estado, alcaldia, colonia, cp, calle, numeroExterior)
+VALUES (1234567891, 'Maria', 'Gonzalez', 'Lopez', 'maria.gonzalez@example.com', 1234567891, 'GOLM123456HDFABC02', 'F', 'Ciudad de Mexico', 'Coyoacan', 'Del Carmen', 04100, 'Avenida Miguel Angel de Quevedo', 124);
+
+
+INSERT INTO Alumno (boletaAlumno, nombres, apellidoPaterno, apellidoMaterno, correoElectronico, telefono, curp, sexo, estado, alcaldia, colonia, cp, calle, numeroExterior)
+VALUES (2020301647, 'Jorge', 'Lopez', 'Perez', 'pedritolopez@gmail.com', 2348653927, 'GOLM123456HDFABC02', 'M', 'Ciudad de Mexico', 'Cuajimalpa', 'Jesus del Monte', 05200, 'Avenida Montesinos', 13);
+
+INSERT INTO Alumno (boletaAlumno, nombres, apellidoPaterno, apellidoMaterno, correoElectronico, telefono, curp, sexo, estado, alcaldia, colonia, cp, calle, numeroExterior)
+VALUES (2020301434, 'Viridiana', 'Camacho', 'Benitez', 'viridiana12@gmail.com', 2348687120, 'VICHB12F446MDFABC', 'F', 'Ciudad de Mexico', 'Alvaro Obregon', 'Cuernito', 052023, 'Avenida Santa fe', 20);
+
+***** Profesor ******
+INSERT INTO Profesor (numeroEmpleado, nombres, apellidoPaterno, apellidoMaterno, correoElectronico, telefono, curp, sexo, estado, alcaldia, colonia, cp, calle, numeroExterior, rfc)
+VALUES (25746930, 'Jose', 'Perez', 'Garcia', 'jose_perez@gmail.com', 5589159832, 'PEGJ123456HDFABC01', 'M', 'Ciudad de Mexico', 'Benito Juarez', 'Narvarte', 03020, 'Avenida Universidad', 123, 'PEGJ123456ABC');
+
+INSERT INTO Profesor (numeroEmpleado, nombres, apellidoPaterno, apellidoMaterno, correoElectronico, telefono, curp, sexo, estado, alcaldia, colonia, cp, calle, numeroExterior, rfc)
+VALUES (26436130, 'Juan Sebastian', 'Guarnizo', 'Algarra', 'juan_ga@gmail.com', 5589742832, 'JAGJ13246HDFABC01', 'M', 'Nuevo León', 'Monterrey', 'Garza', 05120, 'San Pedro', 25, 'JAGJ12346DFR');
+
+INSERT INTO Profesor (numeroEmpleado, nombres, apellidoPaterno, apellidoMaterno, correoElectronico, telefono, curp, sexo, estado, alcaldia, colonia, cp, calle, numeroExterior, rfc)
+VALUES (26436230, 'Ariadna', 'Garza', 'Alonso', 'arialonso@gmail.com', 5589744532, 'ARGAA13246HDFABT21', 'M', 'Nuevo León', 'Monterrey', 'Garza', 05220, 'San Pedro', 75, 'ARGAA13246M7');
+
+INSERT INTO Profesor (numeroEmpleado, nombres, apellidoPaterno, apellidoMaterno, correoElectronico, telefono, curp, sexo, estado, alcaldia, colonia, cp, calle, numeroExterior, rfc)
+VALUES (214236530, 'Amayrani', 'Garza', 'Perez', 'amalonso@gmail.com', 5589742332, 'ARPEA13246HDFABT21', 'M', 'Ciudad de Mexico', 'Gustavo A Madero', 'Ticoman', 07130, 'San Pedro', 69, 'ARPEA33246M7');
+
+***** Materia ************
+INSERT INTO Materia (idMateria, nombreMateria, carrera, creditos, departamento)
+VALUES (8123, 'Matematicas', 'Ciencia de Datos', 12, 'Ciencias Basicas');
+
+INSERT INTO Materia (idMateria, nombreMateria, carrera, creditos, departamento)
+VALUES (2729, 'Comunicación', 'Biotecnologia', 17, 'Humanisticas');
+
+INSERT INTO Materia (idMateria, nombreMateria, carrera, creditos, departamento)
+VALUES (1527, 'Humanidades', 'Biomedica', 20, 'Humanisticas');
+
+INSERT INTO Materia (idMateria, nombreMateria, carrera, creditos, departamento)
+VALUES (4653, 'Programación', 'Ciencia de Datos', 15, 'Ciencias Basicas');
+
+INSERT INTO Materia (idMateria, nombreMateria, carrera, creditos, departamento)
+VALUES (1578, 'Quimica', 'Biotecnologia', 12, 'Ciencias Basicas');
+
+****** Semestre *********
+
+INSERT INTO Semestre (idSemestre, carrera, materiasBasicas, materiasHumanisticas, materiasCarrera, creditosEsperados)
+VALUES (13, 'Ciencia de Datos', 10, 3, 13, 200);
+
+INSERT INTO Semestre (idSemestre, carrera, materiasBasicas, materiasHumanisticas, materiasCarrera, creditosEsperados)
+VALUES (12, 'Biotecnologia', 10, 3, 15, 250);
+
+INSERT INTO Semestre (idSemestre, carrera, materiasBasicas, materiasHumanisticas, materiasCarrera, creditosEsperados)
+VALUES (11, 'Biomedica', 10, 4, 18, 300);
+
+***** Tiempo ******
+
+INSERT INTO Tiempo (idTiempo, dia, mes, parcial, semestre, anio)
+VALUES (1, 15, 6, 2, 6, 2021);
+INSERT INTO Tiempo (idTiempo, dia, mes, parcial, semestre, anio)
+VALUES (2, 25, 6, 2, 2, 2022);
+INSERT INTO Tiempo (idTiempo, dia, mes, parcial, semestre, anio)
+VALUES (3, 19, 7, 3, 4, 2020);
+INSERT INTO Tiempo (idTiempo, dia, mes, parcial, semestre, anio)
+VALUES (4, 2, 2, 1, 3, 2023);
+INSERT INTO Tiempo (idTiempo, dia, mes, parcial, semestre, anio)
+VALUES (5, 15, 5, 2, 7, 2019);
+
+
+
+--------------------------Consultas relevantes-----------------------
+1.	¿Cuál es el parcial con menor promedio de calificación de las Top 5 materias más reprobadas?
+
+SELECT mater.nombreMateria AS nombreMateria, res6.parcial AS parcial, res5.min as menorPromedio FROM
+(SELECT res4.idMateria, MIN(res4.prom) as min FROM
+(SELECT * FROM (SELECT res3.idMateria, t.parcial, AVG(res3.calif) as prom FROM
+(SELECT res2.idMateria, res2.idTiempo, res2.calificacionMateriaAlumno AS calif FROM
+(SELECT * FROM (
+select r.idMateria, AVG(r.calificacionMateriaAlumno)
+from resultados r
+where r.calificacionMateriaAlumno < 6.0
+GROUP BY (r.idMateria)
+ORDER BY (AVG(r.calificacionMateriaAlumno))
+) where rownum <= 5) res1
+INNER JOIN resultados res2
+ON res1.idMateria=res2.idMateria) res3
+INNER JOIN tiempo t
+ON res3.idTiempo=t.idTiempo
+GROUP BY (res3.idMateria, t.parcial) ORDER BY res3.idMateria, t.parcial)) res4
+GROUP BY (res4.idMateria)) res5
+INNER JOIN
+(SELECT * FROM (SELECT res3.idMateria, t.parcial, AVG(res3.calif) as prom FROM
+(SELECT res2.idMateria, res2.idTiempo, res2.calificacionMateriaAlumno AS calif FROM
+(SELECT * FROM (
+select r.idMateria, AVG(r.calificacionMateriaAlumno)
+from resultados r
+where r.calificacionMateriaAlumno < 6.0
+GROUP BY (r.idMateria)
+ORDER BY (AVG(r.calificacionMateriaAlumno))
+) where rownum <= 5) res1
+INNER JOIN resultados res2
+ON res1.idMateria=res2.idMateria) res3
+INNER JOIN tiempo t
+ON res3.idTiempo=t.idTiempo
+GROUP BY (res3.idMateria, t.parcial) ORDER BY res3.idMateria, t.parcial)) res6
+ON res5.min=res6.prom
+INNER JOIN materia mater
+ON res5.idMateria=mater.idMateria;
+
+
+
+
+
+
+
+
+
+
+
+
+

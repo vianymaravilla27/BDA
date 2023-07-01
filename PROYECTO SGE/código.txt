@@ -1,0 +1,81 @@
+@startuml
+class Alumno {
+  - boletaAlumno: number(20)
+  - nombres: varchar2(50) NOT NULL
+  - apellidoPaterno: varchar2(50) NOT NULL
+  - apellidoMaterno: varchar2(50) NOT NULL
+  - correoElectronico: varchar2(50) NOT NULL
+  - telefono: number(10) NOT NULL
+  - curp: varchar2(18)
+  - sexo: char(1) NOT NULL
+  - estado: varchar2 (30) NOT NULL
+  - alcaldia: varchar2 (50) NOT NULL
+  - colonia: varchar2(50) NOT NULL
+  - cp: number (10) NOT NULL
+  - calle: varchar2 (100) NOT NULL
+  - numeroExterior: number (5) NOT NULL
+}
+
+class Profesor {
+  - numeroEmpleado: number(20)
+  - nombres: varchar2(50) NOT NULL
+  - apellidoPaterno: varchar2(50) NOT NULL
+  - apellidoMaterno: varchar2(50) NOT NULL
+  - correoElectronico: varchar2(50) NOT NULL
+  - telefono: number(10) NOT NULL
+  - curp: varchar2(18)
+  - sexo: char(1) NOT NULL
+  - estado: varchar2 (30) NOT NULL
+  - alcaldia: varchar2 (50) NOT NULL
+  - colonia: varchar2(50) NOT NULL
+  - cp: number (10) NOT NULL
+  - calle: varchar2 (100) NOT NULL
+  - numeroExterior: number (5) NOT NULL  
+  - rfc : varchar2 (15) NOT NULL  
+}
+
+class Materia {
+  - idMateria : number(4)
+  - nombreMateria : varchar2(70) NOT NULL 
+  - carrera : varchar2(50) NOT NULL 
+  - creditos : number(3) NOT NULL 
+  - departamento : varchar2(50) NOT NULL 
+}
+
+class Semestre {
+   - idSemestre : number (3)
+   - carrera : varchar2 (50) NOT NULL 
+   - materiasBasicas : number (2) NOT NULL 
+   - materiasHumanisticas : number (2) NOT NULL 
+   - materiasCarrera : number (2) NOT NULL 
+   - creditosEsperados : number (4) NOT NULL  
+}
+
+class Tiempo {
+   - idTiempo : number (4)
+   - dia : number(2) NOT NULL 
+   - mes : number(2) NOT NULL 
+   - parcial : number(1) NOT NULL 
+   - semestre : number (1) NOT NULL 
+   - anio : number (4) NOT NULL  
+}
+
+class Resultados {
+  - idResultado : number
+  - boletaAlumno : number(10) NOT NULL 
+  - numeroEmpleado : number(10) NOT NULL 
+  - idMateria : number(4) NOT NULL 
+  - idSemestre : number(4) NOT NULL 
+  - idTiempo : number(4) NOT NULL 
+  - calificacionMateriaAlumno : number(2) NOT NULL 
+  - categoriaEvaluacionProfesor : number(1) NOT NULL 
+}
+
+Alumno --|> Resultados
+Profesor --|> Resultados
+Resultados --|> Materia
+Resultados --|> Semestre
+Resultados --|> Tiempo
+
+@enduml
+

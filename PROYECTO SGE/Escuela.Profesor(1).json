@@ -1,0 +1,220 @@
+[{
+  "_id": {
+    "$oid": "649245f6e9e3defa3ffe3f62"
+  },
+  "numeroEmpleado": 20106389,
+  "nombres": "Lilian",
+  "apellidoPaterno": "Martínez",
+  "apellidoMaterno": "Acosta",
+  "correoElectronico": "lilian.martinez@profesor.ipn.mx",
+  "telefono": {
+    "$numberLong": "5535889425"
+  },
+  "curp": "LIMAAC1970MDFZAN",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Cuauhtémoc",
+  "colonia": "Tabacalera",
+  "cp": 3096,
+  "calle": "Av. Reforma",
+  "numeroExterior": 45,
+  "rfc": "LIMAAC1970MDF"
+},
+{
+  "_id": {
+    "$oid": "649245f6e9e3defa3ffe3f63"
+  },
+  "numeroEmpleado": 20106322,
+  "nombres": "Uriel",
+  "apellidoPaterno": "Corona",
+  "apellidoMaterno": "Bermudez",
+  "correoElectronico": "uriel.corona@profesor.ipn.mx",
+  "telefono": {
+    "$numberLong": "5500935284"
+  },
+  "curp": "URCOBE1985HDFZAL",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Benito Juárez",
+  "colonia": "Narvarte",
+  "cp": 3810,
+  "calle": "Yácatas",
+  "numeroExterior": 10,
+  "rfc": "URCOBE1985HDF"
+},
+{
+  "_id": {
+    "$oid": "649245f6e9e3defa3ffe3f64"
+  },
+  "numeroEmpleado": 20106394,
+  "nombres": "Israel",
+  "apellidoPaterno": "Sanchez",
+  "apellidoMaterno": "Mendoza",
+  "correoElectronico": "israel.sanchez@profesor.ipn.mx",
+  "telefono": {
+    "$numberLong": "5566134582"
+  },
+  "curp": "ISSAME1983HDFAZL",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Miguel Hidalgo",
+  "colonia": "Polanco",
+  "cp": 11560,
+  "calle": "Av. Homero",
+  "numeroExterior": 56,
+  "rfc": "ISSAME1983HDF"
+},
+{
+  "_id": {
+    "$oid": "649245f6e9e3defa3ffe3f65"
+  },
+  "numeroEmpleado": 20106341,
+  "nombres": "Ana",
+  "apellidoPaterno": "Rodríguez",
+  "apellidoMaterno": "Hernández",
+  "correoElectronico": "ana.rodriguez@profesor.ipn.mx",
+  "telefono": {
+    "$numberLong": "5509654387"
+  },
+  "curp": "ANROHE1970MDFZZA",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Coyoacán",
+  "colonia": "Del Carmen",
+  "cp": 2112,
+  "calle": "Berlín",
+  "numeroExterior": 39,
+  "rfc": "ANROHE1970MDF"
+},
+{
+  "_id": {
+    "$oid": "649245f6e9e3defa3ffe3f66"
+  },
+  "numeroEmpleado": 20106377,
+  "nombres": "Karen",
+  "apellidoPaterno": "Vega",
+  "apellidoMaterno": "Ramos",
+  "correoElectronico": "karen.vega@profesor.ipn.mx",
+  "telefono": {
+    "$numberLong": "5513442785"
+  },
+  "curp": "KAVERA1986MDFSAN",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Cuauhtémoc",
+  "colonia": "San Rafael",
+  "cp": 3384,
+  "calle": "Gabino Barreda",
+  "numeroExterior": 38,
+  "rfc": "KAVERA1986MDF"
+},
+{
+  "_id": {
+    "$oid": "649245f6e9e3defa3ffe3f67"
+  },
+  "numeroEmpleado": 20106351,
+  "nombres": "Ivan",
+  "apellidoPaterno": "Cervantes",
+  "apellidoMaterno": "Ramirez",
+  "correoElectronico": "ivan.cervantes@profesor.ipn.mx",
+  "telefono": {
+    "$numberLong": "5572664598"
+  },
+  "curp": "IVCERA1976HDFZSN",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Azcapotzalco",
+  "colonia": "Santa Cruz Acayucan",
+  "cp": 1528,
+  "calle": "Queretaro",
+  "numeroExterior": 89,
+  "rfc": "IVCERA1976HDF"
+},
+{
+  "_id": {
+    "$oid": "649245f6e9e3defa3ffe3f68"
+  },
+  "numeroEmpleado": 20106302,
+  "nombres": "Andrés",
+  "apellidoPaterno": "Gutiérrez",
+  "apellidoMaterno": "Santos",
+  "correoElectronico": "andres.gutierrez@profesor.ipn.mx",
+  "telefono": {
+    "$numberLong": "5511674936"
+  },
+  "curp": "ANGUSA1983MDFSZS",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Miguel Hidalgo",
+  "colonia": "Torre Blanca",
+  "cp": 11280,
+  "calle": "Lago Guija",
+  "numeroExterior": 111,
+  "rfc": "ANGUSA1983MDF"
+},
+{
+  "_id": {
+    "$oid": "64930a25444fad65533edcd5"
+  },
+  "numeroEmpleado": 20100033,
+  "nombres": "Joshua",
+  "apellidoPaterno": "Pasten",
+  "apellidoMaterno": "Juárez",
+  "correoElectronico": "joshua.pasten@profesor.ipn.mx",
+  "telefono": {
+    "$numberLong": "5545665465"
+  },
+  "curp": "JOPAJU1980HDFZNA",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Benito Juárez",
+  "colonia": "San Pedro de los Pinos",
+  "cp": 3800,
+  "calle": "C. 17",
+  "numeroExterior": 63,
+  "rfc": "JOPAJU1980HDF"
+},
+{
+  "_id": {
+    "$oid": "64930a25444fad65533edcd6"
+  },
+  "numeroEmpleado": 20109922,
+  "nombres": "Laura",
+  "apellidoPaterno": "Tellez",
+  "apellidoMaterno": "Castilla",
+  "correoElectronico": "laura.tellez@profesor.ipn.mx",
+  "telefono": {
+    "$numberLong": "5677443569"
+  },
+  "curp": "LATECA1976MDFAZA",
+  "sexo": "Femenino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Miguel Hidalgo",
+  "colonia": "Mariano Escobedo",
+  "cp": 11310,
+  "calle": "Laguna de Términos",
+  "numeroExterior": 287,
+  "rfc": "LATECA1976MDF"
+},
+{
+  "_id": {
+    "$oid": "64930a25444fad65533edcd7"
+  },
+  "numeroEmpleado": 20101776,
+  "nombres": "Kevin",
+  "apellidoPaterno": "Ramírez",
+  "apellidoMaterno": "Mendez",
+  "correoElectronico": "kevin.ramirez@profesor.ipn.mx",
+  "telefono": {
+    "$numberLong": "5671230098"
+  },
+  "curp": "KERAME1970HDFZZN",
+  "sexo": "Masculino",
+  "estado": "Ciudad de México",
+  "alcaldia": "Cuauhtémoc",
+  "colonia": "Juárez",
+  "cp": 3456,
+  "calle": "Gral. Prim",
+  "numeroExterior": 85,
+  "rfc": "KERAME1970HDF"
+}]
